@@ -103,6 +103,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Generate idiomatic Coq from OCaml code.
 - [Cosette](https://github.com/uwdb/Cosette) – Automated solver for reasoning about SQL equivalences.
 - [Ott](https://github.com/ott-lang/ott) – Tool for writing definitions of programming languages and calculi that can be exported to Coq.
+- [SerAPI](https://github.com/ejgallego/coq-serapi) - Machine-Friendly, Data-Centric Serialization for Coq.
 
 ## Type Theory and Mathematics
 
