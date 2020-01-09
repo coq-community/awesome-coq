@@ -97,7 +97,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [Four Color Theorem](https://github.com/math-comp/fourcolor) – Formal proof of the Four Color Theorem, a landmark result of graph theory.
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) – Development of homotopy-theoretic ideas in Coq.
 - [Odd Order Theorem](https://github.com/math-comp/odd-order) – Formal proof of the Odd Order Theorem, a landmark result of finite group theory.
-- [UniMath](https://github.com/UniMath/UniMath) -- This coq library aims to formalize a substantial body of mathematics using the univalent point of view.
+- [UniMath](https://github.com/UniMath/UniMath) – Library which aims to formalize a substantial body of mathematics using the univalent point of view.
 
 ## Verified Software
 
