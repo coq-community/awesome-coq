@@ -10,6 +10,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 ## Contents
 
 - [Community](#community)
+- [Blogs](#blogs)
 - [Books](#books)
 - [User Interface](#user-interface)
 - [Libraries](#libraries)
@@ -28,6 +29,15 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [Coq Gitter Chat](https://gitter.im/coq/coq)
 - [Official Coq-Club Mailing List](https://sympa.inria.fr/sympa/arc/coq-club)
 - [Coq SubReddit](https://www.reddit.com/r/coq/)
+
+## Blogs
+
+- [Poleiro: a Coq blog by Arthur Azevedo de Amorim](http://poleiro.info)
+- [Guillaume Claret's blog](http://coq-blog.clarus.me)
+- [Gagallium](http://gallium.inria.fr/blog)
+- [Ralf Jung's blog posts on Coq](https://www.ralfj.de/blog/categories/coq.html)
+- [Joachim Breitner's Coq posts](http://www.joachim-breitner.de/blog/tag/Coq)
+- [Gregory Malecha's blog](https://gmalecha.github.io)
 
 ## Books
 
