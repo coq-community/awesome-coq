@@ -32,38 +32,38 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 ## Books
 
 - [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) by Yves Bertot and Pierre Castéran (2004, Chinese version in 2009) – The first book dedicated to Coq; only the French version and the exercises can be downloaded for free, an English version is available via [Springer's website](https://link.springer.com/book/10.1007/978-3-662-07964-5).
-- [Software Foundations](https://softwarefoundations.cis.upenn.edu) by Benjamin Pierce et al. (2007) – A series of Coq-based textbooks on logic, functional programming, and foundations of programming languages, much acclaimed for being accessible to beginners, but mostly oriented towards computer scientists.
-- [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) by Adam Chlipala (2008) – A textbook about practical engineering with Coq which teaches advanced practical tricks and a very specific style of proof.
-- [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) by Andrew W. Appel et al (2014) – A book that explains how to construct powerful and expressive program logics using the theory of separation logic, accompanied by a formal model in Coq, the [Verified Software Toolchain](https://vst.cs.princeton.edu), which is applied to the C light programming language and other examples.
-- [Formal Reasoning About Programs](http://adam.chlipala.net/frap/) by Adam Chlipala (2017) – A book that simultaneously provides a general introduction to formal logical reasoning about the correctness of programs and to using Coq for this purpose.
-- [Programs and Proofs](https://ilyasergey.net/pnp/) by Ilya Sergey (2017) – A book that gives a brief and practically-oriented introduction to the basic concepts of interactive theorem proving using Coq; emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSreflect proof language.
-- [Computer Arithmetic and Formal Proofs](http://iste.co.uk/book.php?id=1238) by Sylvie Boldo and Guillaume Melquiond (2017) – A book that gives a comprehensive view of how to formally specify and verify tricky floating-point algorithms with Coq using the Flocq library.
-- [The Mathematical Components book](https://math-comp.github.io/mcb/) by Assia Mahboubi and Enrico Tassi (2018) – A book that is more oriented towards mathematically inclined users, to dive into Coq with the SSReflect proof language, and the Mathematical Components library.
+- [Software Foundations](https://softwarefoundations.cis.upenn.edu) by Benjamin Pierce et al. (2007) – Series of Coq-based textbooks on logic, functional programming, and foundations of programming languages, much acclaimed for being accessible to beginners, but mostly oriented towards computer scientists.
+- [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) by Adam Chlipala (2008) – Textbook about practical engineering with Coq which teaches advanced practical tricks and a very specific style of proof.
+- [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) by Andrew W. Appel et al (2014) – Book that explains how to construct powerful and expressive program logics using the theory of separation logic, accompanied by a formal model in Coq, the [Verified Software Toolchain](https://vst.cs.princeton.edu), which is applied to the C light programming language and other examples.
+- [Formal Reasoning About Programs](http://adam.chlipala.net/frap/) by Adam Chlipala (2017) – Book that simultaneously provides a general introduction to formal logical reasoning about the correctness of programs and to using Coq for this purpose.
+- [Programs and Proofs](https://ilyasergey.net/pnp/) by Ilya Sergey (2017) – Book that gives a brief and practically-oriented introduction to the basic concepts of interactive theorem proving using Coq; emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSreflect proof language.
+- [Computer Arithmetic and Formal Proofs](http://iste.co.uk/book.php?id=1238) by Sylvie Boldo and Guillaume Melquiond (2017) – Book that gives a comprehensive view of how to formally specify and verify tricky floating-point algorithms with Coq using the Flocq library.
+- [The Mathematical Components book](https://math-comp.github.io/mcb/) by Assia Mahboubi and Enrico Tassi (2018) – Book that is more oriented towards mathematically inclined users, to dive into Coq with the SSReflect proof language, and the Mathematical Components library.
 
 ## User Interface
 
 - [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html) — The Coq Integrated Development Environment is a standalone graphical tool for interacting with Coq.
-- [ProofGeneral](https://proofgeneral.github.io/) — A generic interface for proof assistants based on the extensible, customizable text editor Emacs.
+- [ProofGeneral](https://proofgeneral.github.io/) — Generic interface for proof assistants based on the extensible, customizable text editor Emacs.
 - [Company-Coq](https://github.com/cpitclaudel/company-coq) — IDE extensions for Proof General's Coq mode.
-- [VSCoq](https://github.com/coq-community/vscoq) – A Visual Studio Code extension for Coq.
+- [VSCoq](https://github.com/coq-community/vscoq) – Visual Studio Code extension for Coq.
 
 ## Libraries
 
 - [Mathematical Components](http://math-comp.github.io) – Formalization of mathematical theories, focusing in particular on group theory.
 - [Flocq](http://flocq.gforge.inria.fr) – Formalization of floating-point computations.
-- [TLC](http://www.chargueraud.org/softs/tlc/) – A non-constructive alternative to Coq's standard library.
-- [ExtLib](https://github.com/coq-community/coq-ext-lib) – A collection of theories and plugins that may be useful in other Coq developments.
+- [TLC](http://www.chargueraud.org/softs/tlc/) – Non-constructive alternative to Coq's standard library.
+- [ExtLib](https://github.com/coq-community/coq-ext-lib) – Collection of theories and plugins that may be useful in other Coq developments.
 - [CoLoR](http://color.inria.fr) – Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library (especially on vectors).
-- [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) – An extended "Standard Library" for Coq.
+- [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) – Extended "Standard Library" for Coq.
 
 ## Package Management
 
 - **Distribution**:
-  - [OPAM](https://opam.ocaml.org) – A flexible Git-friendly package manager with multiple compiler support.
+  - [OPAM](https://opam.ocaml.org) – Flexible Git-friendly package manager with multiple compiler support.
 
 - **Build Tools**:
   - [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) – Tool distributed by Coq and based on generating a makefile.
-  - [dune](https://github.com/ocaml/dune) – A composable and opinionated build system for Coq and OCaml (former jbuilder).
+  - [dune](https://github.com/ocaml/dune) – Composable and opinionated build system for Coq and OCaml (former jbuilder).
 
 ## Plugins
 
@@ -81,7 +81,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 ## Verified Software
 
-- [CompCert](http://compcert.inria.fr) – The CompCert C verified compiler, a high-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors.
+- [CompCert](http://compcert.inria.fr) – High-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors.
 
 * * *
 
