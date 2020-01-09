@@ -92,6 +92,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 ## Plugins
 
+- [Coq-Elpi](https://github.com/LPCIC/coq-elpi) - Plugin for Embeddable Lambda Prolog Interpreter
 - [CoqHammer](https://github.com/lukaszcz/coqhammer) – General-purpose automated reasoning hammer tool for Coq that combines learning from previous proofs with the translation of problems to the logics of automated systems and the reconstruction of successfully found proofs.
 - [Equations](https://github.com/mattam82/Coq-Equations) – Function definition package for Coq.
 - [MetaCoq](https://github.com/MetaCoq/metacoq) - Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins (i.e. translations, compilers or tactics) in Coq.
@@ -99,8 +100,9 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 ## Tools
 
-- [Ott](https://github.com/ott-lang/ott) – Tool for writing definitions of programming languages and calculi that can be exported to Coq.
+- [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Generate idiomatic Coq from OCaml code.
 - [Cosette](https://github.com/uwdb/Cosette) – Automated solver for reasoning about SQL equivalences.
+- [Ott](https://github.com/ott-lang/ott) – Tool for writing definitions of programming languages and calculi that can be exported to Coq.
 
 ## Type Theory and Mathematics
 
