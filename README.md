@@ -85,7 +85,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 - [CoqHammer](https://github.com/lukaszcz/coqhammer) – General-purpose automated reasoning hammer tool for Coq that combines learning from previous proofs with the translation of problems to the logics of automated systems and the reconstruction of successfully found proofs.
 - [Equations](https://github.com/mattam82/Coq-Equations) – Function definition package for Coq.
-- [QuickChick](https://github.com/QuickChick/QuickChick) - Randomized Property-Based Testing Plugin for Coq.
+- [QuickChick](https://github.com/QuickChick/QuickChick) – Plugin for randomized property-based testing.
 
 ## Tools
 
