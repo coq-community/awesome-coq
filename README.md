@@ -10,6 +10,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 ## Contents
 
 - [Community](#community)
+- [Blogs](#blogs)
 - [Books](#books)
 - [User Interface](#user-interface)
 - [Libraries](#libraries)
@@ -29,6 +30,15 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [Official Coq-Club Mailing List](https://sympa.inria.fr/sympa/arc/coq-club)
 - [Coq SubReddit](https://www.reddit.com/r/coq/)
 
+## Blogs
+
+- [Poleiro: a Coq blog by Arthur Azevedo de Amorim](http://poleiro.info)
+- [Guillaume Claret's blog](http://coq-blog.clarus.me)
+- [Gagallium](http://gallium.inria.fr/blog)
+- [Ralf Jung's blog posts on Coq](https://www.ralfj.de/blog/categories/coq.html)
+- [Joachim Breitner's Coq posts](http://www.joachim-breitner.de/blog/tag/Coq)
+- [Gregory Malecha's blog](https://gmalecha.github.io)
+- [Coq Exchange: ideas and experiment reports about Coq](https://project.inria.fr/coqexchange/news/)
 ## Books
 
 - [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) by Yves Bertot and Pierre Castéran (2004, Chinese version in 2009) – The first book dedicated to Coq; only the French version and the exercises can be downloaded for free, an English version is available via [Springer's website](https://link.springer.com/book/10.1007/978-3-662-07964-5).
