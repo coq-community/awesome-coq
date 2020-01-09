@@ -61,7 +61,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [ProofGeneral](https://proofgeneral.github.io/) — Generic interface for proof assistants based on the extensible, customizable text editor Emacs.
 - [Company-Coq](https://github.com/cpitclaudel/company-coq) — IDE extensions for Proof General's Coq mode.
 - [VSCoq](https://github.com/coq-community/vscoq) – Visual Studio Code extension for Coq.
-- [jsCoq](https://github.com/ejgallego/jscoq) - A port of Coq to Javascript -- Run Coq in your Browser.
+- [jsCoq](https://github.com/ejgallego/jscoq) — Port of Coq to JavaScript which enables running Coq projects in a browser.
 
 ## Libraries
 
