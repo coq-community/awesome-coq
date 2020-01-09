@@ -90,7 +90,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 ## Tools
 
 - [Ott](https://github.com/ott-lang/ott) – Tool for writing definitions of programming languages and calculi that can be exported to Coq.
-- [Cosette](https://github.com/uwdb/Cosette) - Cosette is an automated SQL solver.
+- [Cosette](https://github.com/uwdb/Cosette) – Automated solver for reasoning about SQL equivalences.
 
 ## Type Theory and Mathematics
 
