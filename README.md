@@ -103,7 +103,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 - [CompCert](http://compcert.inria.fr) – High-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors.
 - [Verdi](https://github.com/uwplse/verdi) - A framework for formally verifying distributed systems implementations in Coq.
-- [Verdi Raft](https://github.com/uwplse/verdi-raft) - An implementation of the Raft distributed consensus protocol, verified in Coq using the Verdi framework.
+- [Verdi Raft](https://github.com/uwplse/verdi-raft) - Implementation of the Raft distributed consensus protocol, verified in Coq using the Verdi framework.
 
 * * *
 
