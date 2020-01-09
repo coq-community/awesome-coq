@@ -11,9 +11,11 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 - [Community](#community)
 - [Blogs](#blogs)
+- [Tutorials and Hints](#tutorials-and-hints)
 - [Books](#books)
 - [User Interface](#user-interface)
 - [Libraries](#libraries)
+- [Frameworks](#frameworks)
 - [Package Management](#package-management)
 - [Plugins](#plugins)
 - [Tools](#tools)
@@ -40,7 +42,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [Gregory Malecha's blog](https://gmalecha.github.io)
 - [Coq Exchange: ideas and experiment reports about Coq](https://project.inria.fr/coqexchange/news/)
 
-## Tutorials, cheatsheets
+## Tutorials and Hints
 
 - [coq-tricks](https://github.com/tchajed/coq-tricks) - Tricks you wish the Coq manual told you.
 
@@ -72,6 +74,13 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [CoLoR](http://color.inria.fr) – Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library (especially on vectors).
 - [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) – Extended "Standard Library" for Coq.
 
+## Frameworks
+
+- [Fiat](https://github.com/mit-plv/fiat) - Mostly automated synthesis of correct-by-construction programs. 
+- [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
+- [Verdi](https://github.com/uwplse/verdi) - Framework for formally verifying distributed systems implementations.
+- [VST](https://vst.cs.princeton.edu) -  Verified Software Toolchain is a toolchain for verifying C code inside the Coq proof assistant, in a higher-order concurrent, impredicative separation logic ("Verifiable C") that is provably sound w.r.t. the Clight operational semantics of CompCert.
+
 ## Package Management
 
 - **Distribution**:
@@ -85,6 +94,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 - [CoqHammer](https://github.com/lukaszcz/coqhammer) – General-purpose automated reasoning hammer tool for Coq that combines learning from previous proofs with the translation of problems to the logics of automated systems and the reconstruction of successfully found proofs.
 - [Equations](https://github.com/mattam82/Coq-Equations) – Function definition package for Coq.
+- [MetaCoq](https://github.com/MetaCoq/metacoq) - Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins (i.e. translations, compilers or tactics) in Coq.
 - [QuickChick](https://github.com/QuickChick/QuickChick) – Plugin for randomized property-based testing.
 
 ## Tools
@@ -98,6 +108,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) – Development of homotopy-theoretic ideas in Coq.
 - [Odd Order Theorem](https://github.com/math-comp/odd-order) – Formal proof of the Odd Order Theorem, a landmark result of finite group theory.
 - [UniMath](https://github.com/UniMath/UniMath) – Library which aims to formalize a substantial body of mathematics using the univalent point of view.
+- [category-theory](https://github.com/jwiegley/category-theory) - John Wiegley's axiom-free formalization of category theory in Coq for personal study and practical work
 
 ## Verified Software
 
