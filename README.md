@@ -1,8 +1,8 @@
 # Awesome Coq [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of references to awesome Coq libraries, plugins, tools, documentation, and verification projects.
+A curated list of references to awesome Coq libraries, plugins, tools, verification projects, and resources.
 
-Is your favorite project not listed? Fork and [create a Pull Request](https://github.com/coq-community/awesome-coq/edit/master/README.md) to add it!
+The Coq proof assistant provides a formal language to write mathematical definitions, executable algorithms, and theorems, together with an environment for semi-interactive development of machine-checked proofs.
 
 ## Contents
 
@@ -42,10 +42,10 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 ## Books
 
-- [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) by Yves Bertot and Pierre Castéran (2004, Chinese version in 2009) – The first book dedicated to Coq; only the French version and the exercises can be downloaded for free, an English version is available via [Springer's website](https://link.springer.com/book/10.1007/978-3-662-07964-5).
+- [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) by Yves Bertot and Pierre Castéran (2004, Chinese version in 2009) – The first book dedicated to Coq.
 - [Software Foundations](https://softwarefoundations.cis.upenn.edu) by Benjamin Pierce et al. (2007) – Series of Coq-based textbooks on logic, functional programming, and foundations of programming languages, much acclaimed for being accessible to beginners, but mostly oriented towards computer scientists.
 - [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) by Adam Chlipala (2008) – Textbook about practical engineering with Coq which teaches advanced practical tricks and a very specific style of proof.
-- [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) by Andrew W. Appel et al (2014) – Book that explains how to construct powerful and expressive program logics using the theory of separation logic, accompanied by a formal model in Coq, the [Verified Software Toolchain](https://vst.cs.princeton.edu), which is applied to the C light programming language and other examples.
+- [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) by Andrew W. Appel et al (2014) – Book that explains how to construct powerful and expressive program logics using the theory of separation logic, accompanied by a formal model in Coq which is applied to the Clight programming language and other examples.
 - [Formal Reasoning About Programs](http://adam.chlipala.net/frap/) by Adam Chlipala (2017) – Book that simultaneously provides a general introduction to formal logical reasoning about the correctness of programs and to using Coq for this purpose.
 - [Programs and Proofs](https://ilyasergey.net/pnp/) by Ilya Sergey (2017) – Book that gives a brief and practically-oriented introduction to the basic concepts of interactive theorem proving using Coq; emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSreflect proof language.
 - [Computer Arithmetic and Formal Proofs](http://iste.co.uk/book.php?id=1238) by Sylvie Boldo and Guillaume Melquiond (2017) – Book that gives a comprehensive view of how to formally specify and verify tricky floating-point algorithms with Coq using the Flocq library.
@@ -88,15 +88,15 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 ## Plugins
 
-- [Coq-Elpi](https://github.com/LPCIC/coq-elpi) - Plugin for Embeddable Lambda Prolog Interpreter
+- [Coq-Elpi](https://github.com/LPCIC/coq-elpi) – Plugin for the Embeddable Lambda Prolog Interpreter.
 - [CoqHammer](https://github.com/lukaszcz/coqhammer) – General-purpose automated reasoning hammer tool for Coq that combines learning from previous proofs with the translation of problems to the logics of automated systems and the reconstruction of successfully found proofs.
 - [Equations](https://github.com/mattam82/Coq-Equations) – Function definition package for Coq.
-- [MetaCoq](https://github.com/MetaCoq/metacoq) - Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins (i.e. translations, compilers or tactics) in Coq.
+- [MetaCoq](https://github.com/MetaCoq/metacoq) – Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins (i.e. translations, compilers or tactics) in Coq.
 - [QuickChick](https://github.com/QuickChick/QuickChick) – Plugin for randomized property-based testing.
 
 ## Tools
 
-- [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Generate idiomatic Coq from OCaml code.
+- [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) – Tool for generating idiomatic Coq from OCaml code.
 - [Cosette](https://github.com/uwdb/Cosette) – Automated solver for reasoning about SQL equivalences.
 - [Ott](https://github.com/ott-lang/ott) – Tool for writing definitions of programming languages and calculi that can be translated to Coq code.
 - [SerAPI](https://github.com/ejgallego/coq-serapi) – Machine-friendly, data-centric serialization of Coq code.
