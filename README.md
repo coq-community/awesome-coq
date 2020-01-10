@@ -11,9 +11,11 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 - [Community](#community)
 - [Blogs](#blogs)
+- [Tutorials and Hints](#tutorials-and-hints)
 - [Books](#books)
 - [User Interface](#user-interface)
 - [Libraries](#libraries)
+- [Frameworks](#frameworks)
 - [Package Management](#package-management)
 - [Plugins](#plugins)
 - [Tools](#tools)
@@ -39,6 +41,11 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [Joachim Breitner's Coq posts](http://www.joachim-breitner.de/blog/tag/Coq)
 - [Gregory Malecha's blog](https://gmalecha.github.io)
 - [Coq Exchange: ideas and experiment reports about Coq](https://project.inria.fr/coqexchange/news/)
+
+## Tutorials and Hints
+
+- [coq-tricks](https://github.com/tchajed/coq-tricks) - Tricks you wish the Coq manual told you.
+
 ## Books
 
 - [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) by Yves Bertot and Pierre Castéran (2004, Chinese version in 2009) – The first book dedicated to Coq; only the French version and the exercises can be downloaded for free, an English version is available via [Springer's website](https://link.springer.com/book/10.1007/978-3-662-07964-5).
@@ -56,6 +63,7 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [ProofGeneral](https://proofgeneral.github.io/) — Generic interface for proof assistants based on the extensible, customizable text editor Emacs.
 - [Company-Coq](https://github.com/cpitclaudel/company-coq) — IDE extensions for Proof General's Coq mode.
 - [VSCoq](https://github.com/coq-community/vscoq) – Visual Studio Code extension for Coq.
+- [jsCoq](https://github.com/ejgallego/jscoq) — Port of Coq to JavaScript which enables running Coq projects in a browser.
 
 ## Libraries
 
@@ -65,6 +73,13 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 - [ExtLib](https://github.com/coq-community/coq-ext-lib) – Collection of theories and plugins that may be useful in other Coq developments.
 - [CoLoR](http://color.inria.fr) – Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library (especially on vectors).
 - [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) – Extended "Standard Library" for Coq.
+
+## Frameworks
+
+- [Fiat](https://github.com/mit-plv/fiat) - Mostly automated synthesis of correct-by-construction programs. 
+- [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
+- [Verdi](https://github.com/uwplse/verdi) - Framework for formally verifying distributed systems implementations.
+- [VST](https://vst.cs.princeton.edu) -  Verified Software Toolchain is a toolchain for verifying C code inside the Coq proof assistant, in a higher-order concurrent, impredicative separation logic ("Verifiable C") that is provably sound w.r.t. the Clight operational semantics of CompCert.
 
 ## Package Management
 
@@ -77,21 +92,31 @@ Is your favorite project not listed? Fork and [create a Pull Request](https://gi
 
 ## Plugins
 
+- [Coq-Elpi](https://github.com/LPCIC/coq-elpi) - Plugin for Embeddable Lambda Prolog Interpreter
 - [CoqHammer](https://github.com/lukaszcz/coqhammer) – General-purpose automated reasoning hammer tool for Coq that combines learning from previous proofs with the translation of problems to the logics of automated systems and the reconstruction of successfully found proofs.
+- [Equations](https://github.com/mattam82/Coq-Equations) – Function definition package for Coq.
+- [MetaCoq](https://github.com/MetaCoq/metacoq) - Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins (i.e. translations, compilers or tactics) in Coq.
+- [QuickChick](https://github.com/QuickChick/QuickChick) – Plugin for randomized property-based testing.
 
 ## Tools
 
+- [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Generate idiomatic Coq from OCaml code.
+- [Cosette](https://github.com/uwdb/Cosette) – Automated solver for reasoning about SQL equivalences.
 - [Ott](https://github.com/ott-lang/ott) – Tool for writing definitions of programming languages and calculi that can be exported to Coq.
+- [SerAPI](https://github.com/ejgallego/coq-serapi) - Machine-Friendly, Data-Centric Serialization for Coq.
 
 ## Type Theory and Mathematics
 
 - [Four Color Theorem](https://github.com/math-comp/fourcolor) – Formal proof of the Four Color Theorem, a landmark result of graph theory.
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) – Development of homotopy-theoretic ideas in Coq.
 - [Odd Order Theorem](https://github.com/math-comp/odd-order) – Formal proof of the Odd Order Theorem, a landmark result of finite group theory.
+- [UniMath](https://github.com/UniMath/UniMath) – Library which aims to formalize a substantial body of mathematics using the univalent point of view.
+- [category-theory](https://github.com/jwiegley/category-theory) - John Wiegley's axiom-free formalization of category theory in Coq for personal study and practical work
 
 ## Verified Software
 
 - [CompCert](http://compcert.inria.fr) – High-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors.
+- [Verdi Raft](https://github.com/uwplse/verdi-raft) - Implementation of the Raft distributed consensus protocol, verified in Coq using the Verdi framework.
 
 * * *
 
