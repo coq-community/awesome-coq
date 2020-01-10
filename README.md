@@ -30,6 +30,7 @@ Below is a curated list of references to awesome Coq libraries, plugins, tools, 
 
 - [Fiat](https://github.com/mit-plv/fiat) - Mostly automated synthesis of correct-by-construction programs.
 - [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
+- [rewriter](https://github.com/mit-plv/rewriter) - Reflective PHOAS rewriting/pattern-matching-compilation framework for simply-typed equalities and let-lifting.
 - [Verdi](https://github.com/uwplse/verdi) - Framework for formally verifying distributed systems implementations.
 - [VST](https://vst.cs.princeton.edu) - Toolchain for verifying C code inside Coq in a higher-order concurrent, impredicative separation logic that is sound w.r.t. the Clight language of the CompCert compiler.
 
@@ -48,8 +49,19 @@ Below is a curated list of references to awesome Coq libraries, plugins, tools, 
 - [Flocq](http://flocq.gforge.inria.fr) - Formalization of floating-point computations.
 - [TLC](http://www.chargueraud.org/softs/tlc/) - Non-constructive alternative to Coq's standard library.
 - [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
+- [stdlib2](https://github.com/coq/stdlib2) - Work-in-progress project project aiming to re-design and implement a new standard library for Coq following a clean slate approach.
 - [CoLoR](http://color.inria.fr) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) - Extended alternative standard library for Coq.
+- [Bignums](https://github.com/coq/bignums) - Library of arbitrary large numbers.
+- [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Library providing a formalisation of Partial Commutative Monoids, a common algebraic structure used in separation logic for verification of pointer-manipulating sequential and concurrent programs.
+- [coq-simple-io](https://github.com/Lysxia/coq-simple-io) - Library providing tools to implement IO programs directly in Coq, in a similar style to Haskell.
+- [coq-menhirlib](https://gitlab.inria.fr/fpottier/coq-menhirlib) - Support library for verified Coq parsers produced by [Menhir](http://gallium.inria.fr/~fpottier/menhir/) parser generator.
+- coquelicot
+- [relation-algebra](relation-algebra) - Modular relation algebra library: algebras admitting heterogeneous binary relations as a model, ranging from partially ordered monoid to residuated Kleene allegories and Kleene algebra with tests.
+- [StructTact](https://github.com/uwplse/StructTact) - Library of "structural tactics" as well as libraries containing lemmas about lists, finite types, and orders on strings that use the tactics library.
+- [InfSeqExt](https://github.com/DistributedComponents/InfSeqExt) - Library for reasoning inductively and coinductively on infinite sequences, using LTL-like modal operators.
+- [Paco](http://plv.mpi-sws.org/paco/) - Library for parameterized coinduction. Parameterized coinduction is a technique for defining coinductive predicates (i.e., in `Prop`), using which one can perform coinductive proofs in a more compositional and incremental fashion than with standard Tarski-style constructions. 
+- [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
 
 ### Package Management
 
@@ -63,14 +75,20 @@ Below is a curated list of references to awesome Coq libraries, plugins, tools, 
 
 ### Plugins
 
+- [AAC Tactics](https://github.com/coq-community/aac-tactics) - Plugin providing tactics for rewriting universally quantified equations, modulo associativity and commutativity of some operator.
 - [Coq-Elpi](https://github.com/LPCIC/coq-elpi) - Plugin for the Embeddable Lambda Prolog Interpreter.
 - [CoqHammer](https://github.com/lukaszcz/coqhammer) - General-purpose automated reasoning hammer tool for Coq that combines learning from previous proofs with the translation of problems to the logics of automated systems and the reconstruction of successfully found proofs.
 - [Equations](https://github.com/mattam82/Coq-Equations) - Function definition package for Coq.
+- [Gappa plugin](https://gitlab.inria.fr/gappa/coq) - Coq tactic for discharging goals about floating-point arithmetic and round-off errors using the [Gappa](https://gitlab.inria.fr/gappa/gappa) prover.
 - [MetaCoq](https://github.com/MetaCoq/metacoq) - Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins (i.e. translations, compilers or tactics) in Coq.
+- [Mtac2](https://github.com/Mtac2/Mtac2) - Plugin adding Typed Tactics for Backward Reasoning in Coq.
+- [Paramcoq](https://github.com/coq-community/paramcoq) - Plugin to generate parametricity translations of Coq terms.
 - [QuickChick](https://github.com/QuickChick/QuickChick) - Plugin for randomized property-based testing.
+- [Unicoq](https://github.com/unicoq/unicoq) - Plugin that replaces the existing unification algorithm with an enhanced one.
 
 ### Tools
 
+- [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
 - [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL equivalences.
 - [Ott](https://www.cl.cam.ac.uk/~pes20/ott/) - Tool for writing definitions of programming languages and calculi that can be translated to Coq code.
@@ -81,12 +99,26 @@ Below is a curated list of references to awesome Coq libraries, plugins, tools, 
 - [Four Color Theorem](https://github.com/math-comp/fourcolor) - Formal proof of the Four Color Theorem, a landmark result of graph theory.
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) - Development of homotopy-theoretic ideas in Coq.
 - [Odd Order Theorem](https://github.com/math-comp/odd-order) - Formal proof of the Odd Order Theorem, a landmark result of finite group theory.
+- [HoTT](https://github.com/HoTT/HoTT) - Formalization of homotopy type theory.
 - [UniMath](https://github.com/UniMath/UniMath) - Library which aims to formalize a substantial body of mathematics using the univalent point of view.
 - [category-theory](https://github.com/jwiegley/category-theory) - Axiom-free formalization of category theory in Coq for personal study and practical work.
+- [Math Classes](https://github.com/coq-community/math-classes) - Library of abstract interfaces for mathematical structures based on type classes.
+- [CoRN](https://github.com/coq-community/corn) - Library of constructive real analysis and algebra.
+- [GeoCoq](https://github.com/GeoCoq/GeoCoq) - Formalization of geometry based on Tarski's axiom system.
+- [Coquelicot](https://gitlab.inria.fr/coquelicot/coquelicot) - Formalization of real analysis compatible with the standard library and focusing on usability.
+- [CoqInterval](https://gitlab.inria.fr/coqinterval/interval) - Library providing tactics for simplifying the proofs of real number inequalities.
+- [CoqPrime](https://github.com/thery/coqprime) - Lbrary to certify primality using Pocklington certificate and elliptic curve certificate. It is a nice illustration of what we can do with safe computation inside a prover.
 
 ### Verified Software
 
+- [Argosy](https://github.com/mit-pdos/argosy) - Formalization of layered storage systems with recovery refinement.
+- [bedrock2](https://github.com/mit-plv/bedrock2) - Work-in-progress language and compiler targeting RISC-V for verified low-level programming.
+- [Cheerios](https://github.com/uwplse/cheerios) - Formally verified Coq serialization library with support for extraction to OCaml.
 - [CompCert](http://compcert.inria.fr) - High-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors.
+- [cross-crypto](https://github.com/mit-plv/cross-crypto) - Connecting computational and symbolic crypto models.
+- [Fiat-Crypto](https://github.com/mit-plv/fiat-crypto) - Cryptographic Primitive Code Generation by Fiat
+- [lambda-rust](https://gitlab.mpi-sws.org/iris/lambda-rust) - Formal model of a Rust core langauge and type system, a logical relation for the type system, and safety proof for some Rust libraries.
+- [Perennial](https://github.com/mit-pdos/perennial) - Verification of concurrent, crash-safe systems: file systems, concurrent write-ahead logging like Linux's jbd2 layer, persistent key-value stores like RocksDB, etc.
 - [Verdi Raft](https://github.com/uwplse/verdi-raft) - Implementation of the Raft distributed consensus protocol, verified in Coq using the Verdi framework.
 
 ## Resources
