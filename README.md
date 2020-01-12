@@ -46,13 +46,12 @@ The Coq proof assistant provides a formal language to write mathematical definit
 - [CoLoR](http://color.inria.fr) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) - Extended alternative standard library for Coq.
 - [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
-- [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Formalization of partial commutative monoids, which are often used in verification of pointer-manipulating programs.
+- [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Formalization of partial commutative monoids as used in verification of pointer-manipulating programs.
 - [Flocq](http://flocq.gforge.inria.fr) - Formalization of floating-point computations.
 - [Mathematical Components](http://math-comp.github.io) - Formalization of mathematical theories, focusing in particular on group theory.
 - [Paco](http://plv.mpi-sws.org/paco/) - Library for parameterized coinduction.
-- [TLC](http://www.chargueraud.org/softs/tlc/) - Non-constructive alternative to Coq's standard library.
 - [Relation Algebra](https://github.com/damien-pous/relation-algebra) - Modular formalization of algebras with heterogeneous binary relations as models.
-- [Unicoq](https://github.com/unicoq/unicoq) - Plugin that replaces the existing unification algorithm with an enhanced one.
+- [TLC](http://www.chargueraud.org/softs/tlc/) - Non-constructive alternative to Coq's standard library.
 
 ### Package Management
 
@@ -75,6 +74,7 @@ The Coq proof assistant provides a formal language to write mathematical definit
 - [Mtac2](https://github.com/Mtac2/Mtac2) - Plugin adding Typed Tactics for Backward Reasoning in Coq.
 - [Paramcoq](https://github.com/coq-community/paramcoq) - Plugin to generate parametricity translations of Coq terms.
 - [QuickChick](https://github.com/QuickChick/QuickChick) - Plugin for randomized property-based testing.
+- [Unicoq](https://github.com/unicoq/unicoq) - Plugin that replaces the existing unification algorithm with an enhanced one.
 
 ### Tools
 
