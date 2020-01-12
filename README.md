@@ -2,8 +2,6 @@
 
 The Coq proof assistant provides a formal language to write mathematical definitions, executable algorithms, and theorems, together with an environment for semi-interactive development of machine-checked proofs.
 
-Below is a curated list of references to awesome Coq libraries, plugins, tools, verification projects, and resources.
-
 ## Contents
 
 - [Projects](#projects)
@@ -44,12 +42,17 @@ Below is a curated list of references to awesome Coq libraries, plugins, tools, 
 
 ### Libraries
 
-- [Mathematical Components](http://math-comp.github.io) - Formalization of mathematical theories, focusing in particular on group theory.
-- [Flocq](http://flocq.gforge.inria.fr) - Formalization of floating-point computations.
-- [TLC](http://www.chargueraud.org/softs/tlc/) - Non-constructive alternative to Coq's standard library.
-- [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
+- [Bignums](https://github.com/coq/bignums) - Library of arbitrary large numbers.
 - [CoLoR](http://color.inria.fr) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) - Extended alternative standard library for Coq.
+- [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
+- [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Formalization of partial commutative monoids, which are often used in verification of pointer-manipulating programs.
+- [Flocq](http://flocq.gforge.inria.fr) - Formalization of floating-point computations.
+- [Mathematical Components](http://math-comp.github.io) - Formalization of mathematical theories, focusing in particular on group theory.
+- [Paco](http://plv.mpi-sws.org/paco/) - Library for parameterized coinduction.
+- [TLC](http://www.chargueraud.org/softs/tlc/) - Non-constructive alternative to Coq's standard library.
+- [Relation Algebra](https://github.com/damien-pous/relation-algebra) - Modular formalization of algebras with heterogeneous binary relations as models.
+- [Unicoq](https://github.com/unicoq/unicoq) - Plugin that replaces the existing unification algorithm with an enhanced one.
 
 ### Package Management
 
@@ -63,30 +66,42 @@ Below is a curated list of references to awesome Coq libraries, plugins, tools, 
 
 ### Plugins
 
+- [AAC Tactics](https://github.com/coq-community/aac-tactics) - Plugin providing tactics for rewriting universally quantified equations, modulo associativity and commutativity of some operator.
 - [Coq-Elpi](https://github.com/LPCIC/coq-elpi) - Plugin for the Embeddable Lambda Prolog Interpreter.
-- [CoqHammer](https://github.com/lukaszcz/coqhammer) - General-purpose automated reasoning hammer tool for Coq that combines learning from previous proofs with the translation of problems to the logics of automated systems and the reconstruction of successfully found proofs.
+- [CoqHammer](https://github.com/lukaszcz/coqhammer) - General-purpose automated reasoning hammer tool that combines learning from previous proofs with the translation of problems to automated provers and the reconstruction of found proofs.
 - [Equations](https://github.com/mattam82/Coq-Equations) - Function definition package for Coq.
-- [MetaCoq](https://github.com/MetaCoq/metacoq) - Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins (i.e. translations, compilers or tactics) in Coq.
+- [Gappa](https://gitlab.inria.fr/gappa/coq) - Coq tactic for discharging goals about floating-point arithmetic and round-off errors.
+- [MetaCoq](https://github.com/MetaCoq/metacoq) - Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins.
+- [Mtac2](https://github.com/Mtac2/Mtac2) - Plugin adding Typed Tactics for Backward Reasoning in Coq.
+- [Paramcoq](https://github.com/coq-community/paramcoq) - Plugin to generate parametricity translations of Coq terms.
 - [QuickChick](https://github.com/QuickChick/QuickChick) - Plugin for randomized property-based testing.
 
 ### Tools
 
+- [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
 - [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL equivalences.
-- [Ott](https://www.cl.cam.ac.uk/~pes20/ott/) - Tool for writing definitions of programming languages and calculi that can be translated to Coq code.
-- [SerAPI](https://github.com/ejgallego/coq-serapi) - Machine-friendly, data-centric serialization of Coq code.
+- [Ott](https://www.cl.cam.ac.uk/~pes20/ott/) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
+- [SerAPI](https://github.com/ejgallego/coq-serapi) - Library and tool for serialization of Coq code to JSON or S-expressions.
+- [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - Parser generator that can output Coq code for verified parsers.
 
 ### Type Theory and Mathematics
 
+- [category-theory](https://github.com/jwiegley/category-theory) - Axiom-free formalization of category theory in Coq for personal study and practical work.
+- [CoRN](https://github.com/coq-community/corn) - Library of constructive real analysis and algebra.
+- [Coquelicot](https://gitlab.inria.fr/coquelicot/coquelicot) - Formalization of real analysis compatible with the standard library and focusing on usability.
 - [Four Color Theorem](https://github.com/math-comp/fourcolor) - Formal proof of the Four Color Theorem, a landmark result of graph theory.
-- [Homotopy Type Theory](https://github.com/HoTT/HoTT) - Development of homotopy-theoretic ideas in Coq.
+- [GeoCoq](https://github.com/GeoCoq/GeoCoq) - Formalization of geometry based on Tarski's axiom system.
+- [Homotopy Type Theory](https://github.com/HoTT/HoTT) - Development of homotopy-theoretic ideas.
+- [Math Classes](https://github.com/coq-community/math-classes) - Abstract interfaces for mathematical structures based on type classes.
 - [Odd Order Theorem](https://github.com/math-comp/odd-order) - Formal proof of the Odd Order Theorem, a landmark result of finite group theory.
 - [UniMath](https://github.com/UniMath/UniMath) - Library which aims to formalize a substantial body of mathematics using the univalent point of view.
-- [category-theory](https://github.com/jwiegley/category-theory) - Axiom-free formalization of category theory in Coq for personal study and practical work.
 
 ### Verified Software
 
 - [CompCert](http://compcert.inria.fr) - High-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors.
+- [Fiat-Crypto](https://github.com/mit-plv/fiat-crypto) - Cryptographic primitive code generation.
+- [lambda-rust](https://gitlab.mpi-sws.org/iris/lambda-rust) - Formal model of a Rust core language and type system, a logical relation for the type system, and safety proofs for some Rust libraries.
 - [Verdi Raft](https://github.com/uwplse/verdi-raft) - Implementation of the Raft distributed consensus protocol, verified in Coq using the Verdi framework.
 
 ## Resources
