@@ -121,6 +121,8 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [Coq-community package maintenance project](https://github.com/coq-community/manifesto)
 - [Coq subreddit](https://www.reddit.com/r/coq/)
 - [StackOverflow Coq tag](https://stackoverflow.com/questions/tagged/coq)
+- [Coq wiki](https://github.com/coq/coq/wiki)
+- [Mathematical Components wiki](https://github.com/math-comp/math-comp/wiki)
 
 ### Blogs
 
