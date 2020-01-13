@@ -80,6 +80,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [Mtac2](https://github.com/Mtac2/Mtac2) - Plugin adding typed tactics for backward reasoning.
 - [Paramcoq](https://github.com/coq-community/paramcoq) - Plugin to generate parametricity translations of Coq terms.
 - [QuickChick](https://github.com/QuickChick/QuickChick) - Plugin for randomized property-based testing.
+- [SMTCoq](https://github.com/smtcoq/smtcoq) - Tool that checks proof witnesses coming from external SAT and SMT solvers.
 - [Unicoq](https://github.com/unicoq/unicoq) - Plugin that replaces the existing unification algorithm with an enhanced one.
 
 ### Tools
