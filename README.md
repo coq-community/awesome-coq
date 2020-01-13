@@ -83,13 +83,13 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Tools
 
-- [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
+- [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs,  remove unneeded imports, etc.
 - [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL equivalences.
+- [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - Parser generator that can output Coq code for verified parsers.
 - [Ott](https://www.cl.cam.ac.uk/~pes20/ott/) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
 - [SerAPI](https://github.com/ejgallego/coq-serapi) - Library and tool for serialization of Coq code to JSON or S-expressions.
-- [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - Parser generator that can output Coq code for verified parsers.
 
 ### Type Theory and Mathematics
 
