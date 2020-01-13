@@ -118,7 +118,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [Official Coq Discourse forum](https://coq.discourse.group)
 - [Official Coq Gitter chat](https://gitter.im/coq/coq)
 - [Official Coq-Club mailing list](https://sympa.inria.fr/sympa/arc/coq-club)
-- [Coq-community package maintainance project](https://github.com/coq-community/manifesto)
+- [Coq-community package maintenance project](https://github.com/coq-community/manifesto)
 - [Coq subreddit](https://www.reddit.com/r/coq/)
 - [StackOverflow Coq tag](https://stackoverflow.com/questions/tagged/coq)
 
