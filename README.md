@@ -46,6 +46,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Libraries
 
+- [Alternative “Standard” Libraries](https://github.com/coq/stdlib2/wiki/Other-%22standard%22-libraries) - list and descriptions of alternative standard libraries for Coq.
 - [Bignums](https://github.com/coq/bignums) - Library of arbitrary large numbers.
 - [CoLoR](http://color.inria.fr) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) - Extended alternative standard library for Coq.
