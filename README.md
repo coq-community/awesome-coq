@@ -85,6 +85,7 @@ The Coq proof assistant provides a formal language to write mathematical definit
 
 - [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
+- [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs,  remove unneeded imports, etc.
 - [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL equivalences.
 - [Ott](https://www.cl.cam.ac.uk/~pes20/ott/) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
 - [SerAPI](https://github.com/ejgallego/coq-serapi) - Library and tool for serialization of Coq code to JSON or S-expressions.
