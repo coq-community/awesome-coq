@@ -55,7 +55,6 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
 - [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Formalization of partial commutative monoids as used in verification of pointer-manipulating programs.
 - [Flocq](http://flocq.gforge.inria.fr) - Formalization of floating-point computations.
-- [Mathematical Components](http://math-comp.github.io) - Formalization of mathematical theories, focusing in particular on group theory.
 - [Paco](http://plv.mpi-sws.org/paco/) - Library for parameterized coinduction.
 - [Relation Algebra](https://github.com/damien-pous/relation-algebra) - Modular formalization of algebras with heterogeneous binary relations as models.
 - [TLC](http://www.chargueraud.org/softs/tlc/) - Non-constructive alternative to Coq's standard library.
@@ -99,12 +98,14 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Type Theory and Mathematics
 
-- [category-theory](https://github.com/jwiegley/category-theory) - Axiom-free formalization of category theory in Coq for personal study and practical work.
+- [Analysis](https://github.com/math-comp/analysis) - Library for real analysis compatible with Mathematical Components.
+- [Category Theory in Coq](https://github.com/jwiegley/category-theory) - Axiom-free formalization of category theory.
 - [CoRN](https://github.com/coq-community/corn) - Library of constructive real analysis and algebra.
 - [Coquelicot](https://gitlab.inria.fr/coquelicot/coquelicot) - Formalization of real analysis compatible with the standard library and focusing on usability.
 - [Four Color Theorem](https://github.com/math-comp/fourcolor) - Formal proof of the Four Color Theorem, a landmark result of graph theory.
 - [GeoCoq](https://github.com/GeoCoq/GeoCoq) - Formalization of geometry based on Tarski's axiom system.
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) - Development of homotopy-theoretic ideas.
+- [Mathematical Components](http://math-comp.github.io) - Formalization of mathematical theories, focusing in particular on group theory.
 - [Math Classes](https://github.com/coq-community/math-classes) - Abstract interfaces for mathematical structures based on type classes.
 - [Odd Order Theorem](https://github.com/math-comp/odd-order) - Formal proof of the Odd Order Theorem, a landmark result of finite group theory.
 - [UniMath](https://github.com/UniMath/UniMath) - Library which aims to formalize a substantial body of mathematics using the univalent point of view.
@@ -155,7 +156,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 ### Tutorials and Hints
 
 - [CodeWars' Coq kata](https://www.codewars.com/kata/search/coq) - Online proving challenges.
-- [Coq in a Hurry](http://cel.archives-ouvertes.fr/inria-00001173) - Quick introduction showing how Coq can be used to define logical concepts and functions and reason about them.
+- [Coq in a Hurry](http://cel.archives-ouvertes.fr/inria-00001173) - Introduction to how Coq can be used to define logical concepts and functions and reason about them.
 - [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Demonstration of design patterns for programming and proving with canonical structures.
 - [Mike Nahas's Coq Tutorial](https://mdnahas.github.io/doc/nahas_tutorial.html) - Basics of using Coq to write formal proofs.
 - [Tricks in Coq](https://github.com/tchajed/coq-tricks) - Tips, tricks, and features that are hard to discover.
