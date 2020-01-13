@@ -145,6 +145,7 @@ The Coq proof assistant provides a formal language to write mathematical definit
 ### Tutorials and Hints
 
 - [coq-tricks](https://github.com/tchajed/coq-tricks) - Tricks you wish the Coq manual told you.
+- [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
 
 # Contributing
 
