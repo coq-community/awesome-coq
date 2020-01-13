@@ -114,6 +114,8 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [Fiat-Crypto](https://github.com/mit-plv/fiat-crypto) - Cryptographic primitive code generation.
 - [JSCert](https://github.com/jscert/jscert) - Coq specification of ECMAScript 5 (JavaScript) with verified reference interpreter.
 - [lambda-rust](https://gitlab.mpi-sws.org/iris/lambda-rust) - Formal model of a Rust core language and type system, a logical relation for the type system, and safety proofs for some Rust libraries.
+- [riscv-coq](https://github.com/mit-plv/riscv-coq) - RISC-V ISA Specification in Coq by MIT CSAIL.
+- [RiscvSpecFormal](https://github.com/sifive/RiscvSpecFormal) - SiFive’s RISC-V ISA Specification in Coq.
 - [Verdi Raft](https://github.com/uwplse/verdi-raft) - Implementation of the Raft distributed consensus protocol, verified in Coq using the Verdi framework.
 
 ## Resources
