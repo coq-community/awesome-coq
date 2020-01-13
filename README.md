@@ -141,9 +141,9 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Books
 
-- [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) by Yves Bertot and Pierre Castéran (2004, Chinese version in 2009) - The first book dedicated to Coq.
-- [Software Foundations](https://softwarefoundations.cis.upenn.edu) by Benjamin Pierce et al. (2007) - Series of Coq-based textbooks on logic, functional programming, and foundations of programming languages, much acclaimed for being accessible to beginners, but mostly oriented towards computer scientists.
-- [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) by Adam Chlipala (2008) - Textbook about practical engineering with Coq which teaches advanced practical tricks and a very specific style of proof.
+- [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) by Yves Bertot and Pierre Castéran (2004) - The first book dedicated to Coq.
+- [Software Foundations](https://softwarefoundations.cis.upenn.edu) by Benjamin Pierce et al. (2007) - Series of Coq-based textbooks on logic, functional programming, and foundations of programming languages, much acclaimed for being accessible to beginners.
+- [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) by Adam Chlipala (2008) - Textbook about practical engineering with Coq which teaches advanced practical tricks and a specific style of proof.
 - [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) by Andrew W. Appel et al (2014) - Book that explains how to construct powerful and expressive program logics using the theory of separation logic, accompanied by a formal model in Coq which is applied to the Clight programming language and other examples.
 - [Formal Reasoning About Programs](http://adam.chlipala.net/frap/) by Adam Chlipala (2017) - Book that simultaneously provides a general introduction to formal logical reasoning about the correctness of programs and to using Coq for this purpose.
 - [Programs and Proofs](https://ilyasergey.net/pnp/) by Ilya Sergey (2017) - Book that gives a brief and practically-oriented introduction to the basic concepts of interactive theorem proving using Coq; emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSreflect proof language.
@@ -152,8 +152,10 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Tutorials and Hints
 
-- [coq-tricks](https://github.com/tchajed/coq-tricks) - Tricks you wish the Coq manual told you.
-- [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
+- [Coq in a Hurry](http://cel.archives-ouvertes.fr/inria-00001173) - Quick introduction showing how Coq can be used to define logical concepts and functions and reason about them.
+- [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Demonstration of design patterns for programming and proving with canonical structures.
+- [Mike Nahas's Coq Tutorial](https://mdnahas.github.io/doc/nahas_tutorial.html) - Basics of using Coq to write formal proofs.
+- [Tricks in Coq](https://github.com/tchajed/coq-tricks) - Tips, tricks, and features that are hard to discover.
 
 # Contributing
 
