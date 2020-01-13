@@ -1,5 +1,9 @@
 # Awesome Coq [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+[<img src="coq-logo.svg" align="right" width="100">](https://coq.inria.fr)
+
+> A curated list of awesome Coq libraries, plugins, tools, and resources.
+
 The Coq proof assistant provides a formal language to write mathematical definitions, executable algorithms, and theorems, together with an environment for semi-interactive development of machine-checked proofs.
 
 ## Contents
@@ -58,6 +62,7 @@ The Coq proof assistant provides a formal language to write mathematical definit
 - **Distribution**:
   - [OPAM](https://opam.ocaml.org) - Flexible git-friendly package manager with multiple compiler support.
   - [Coq Package Index](https://coq.inria.fr/packages.html) - OPAM-based collection of Coq packages.
+  - [Docker-Coq](https://github.com/coq-community/docker-coq) - Docker images for many versions of Coq.
 
 - **Build Tools**:
   - [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) - Tool distributed by Coq and based on generating a makefile.
@@ -65,13 +70,13 @@ The Coq proof assistant provides a formal language to write mathematical definit
 
 ### Plugins
 
-- [AAC Tactics](https://github.com/coq-community/aac-tactics) - Plugin providing tactics for rewriting universally quantified equations, modulo associativity and commutativity of some operator.
+- [AAC Tactics](https://github.com/coq-community/aac-tactics) - Tactics for rewriting universally quantified equations, modulo associativity and commutativity of some operator.
 - [Coq-Elpi](https://github.com/LPCIC/coq-elpi) - Plugin for the Embeddable Lambda Prolog Interpreter.
 - [CoqHammer](https://github.com/lukaszcz/coqhammer) - General-purpose automated reasoning hammer tool that combines learning from previous proofs with the translation of problems to automated provers and the reconstruction of found proofs.
 - [Equations](https://github.com/mattam82/Coq-Equations) - Function definition package for Coq.
-- [Gappa](https://gitlab.inria.fr/gappa/coq) - Coq tactic for discharging goals about floating-point arithmetic and round-off errors.
+- [Gappa](https://gitlab.inria.fr/gappa/coq) - Tactic for discharging goals about floating-point arithmetic and round-off errors.
 - [MetaCoq](https://github.com/MetaCoq/metacoq) - Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins.
-- [Mtac2](https://github.com/Mtac2/Mtac2) - Plugin adding Typed Tactics for Backward Reasoning in Coq.
+- [Mtac2](https://github.com/Mtac2/Mtac2) - Plugin adding typed tactics for backward reasoning.
 - [Paramcoq](https://github.com/coq-community/paramcoq) - Plugin to generate parametricity translations of Coq terms.
 - [QuickChick](https://github.com/QuickChick/QuickChick) - Plugin for randomized property-based testing.
 - [Unicoq](https://github.com/unicoq/unicoq) - Plugin that replaces the existing unification algorithm with an enhanced one.
