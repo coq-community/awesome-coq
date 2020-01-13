@@ -30,6 +30,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Frameworks
 
+- [Q\*cert](https://querycert.github.io) - Platform for implementing and verifying query compilers.
 - [Fiat](https://github.com/mit-plv/fiat) - Mostly automated synthesis of correct-by-construction programs.
 - [FreeSpec](https://github.com/ANSSI-FR/FreeSpec) - Framework for modularly verifying programs with effects and effect handlers.
 - [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
