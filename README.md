@@ -86,7 +86,6 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 ### Tools
 
 - [CFML](https://gitlab.inria.fr/charguer/cfml) - Tool for proving OCaml programs in Separation Logic.
-- [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
 - [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs,  remove unneeded imports, etc.
