@@ -31,7 +31,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 ### Frameworks
 
 - [Fiat](https://github.com/mit-plv/fiat) - Mostly automated synthesis of correct-by-construction programs.
-- [FreeSpec](https://github.com/ANSSI-FR/FreeSpec) - Framework to modularly verify programs with effects and effect handlers.
+- [FreeSpec](https://github.com/ANSSI-FR/FreeSpec) - Framework for modularly verifying programs with effects and effect handlers.
 - [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
 - [Verdi](https://github.com/uwplse/verdi) - Framework for formally verifying distributed systems implementations.
 - [VST](https://vst.cs.princeton.edu) - Toolchain for verifying C code inside Coq in a higher-order concurrent, impredicative separation logic that is sound w.r.t. the Clight language of the CompCert compiler.
@@ -85,7 +85,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Tools
 
-- [CFML](https://gitlab.inria.fr/charguer/cfml) - Tool for proving OCaml programs in Separation Logic.
+- [CFML](https://gitlab.inria.fr/charguer/cfml) - Tool for proving properties of OCaml programs in separation logic.
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
 - [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs,  remove unneeded imports, etc.
