@@ -41,10 +41,11 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 - [CoqIDE](https://coq.inria.fr/refman/practical-tools/coqide.html) - Standalone graphical tool for interacting with Coq.
 - [Coqtail](https://github.com/whonore/Coqtail) - Interface for Coq based on the Vim text editor.
-- [Proof General](https://proofgeneral.github.io/) - Generic interface for proof assistants based on the extensible, customizable text editor Emacs.
+- [Proof General](https://proofgeneral.github.io) - Generic interface for proof assistants based on the extensible, customizable text editor Emacs.
 - [Company-Coq](https://github.com/cpitclaudel/company-coq) - IDE extensions for Proof General's Coq mode.
 - [jsCoq](https://github.com/ejgallego/jscoq) - Port of Coq to JavaScript, which enables running Coq projects in a browser.
-- [VSCoq](https://github.com/coq-community/vscoq) - Visual Studio Code extension for Coq.
+- [Jupyter kernel for Coq](https://github.com/EugeneLoy/coq_jupyter) - Coq support for the Jupyter Notebook web environment.
+- [VSCoq](https://github.com/coq-community/vscoq) - Visual Studio Code extension.
 
 ### Libraries
 
