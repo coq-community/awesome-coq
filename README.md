@@ -1,10 +1,12 @@
-# Awesome Coq [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Coq [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[<img src="coq-logo.svg" align="right" width="100" title="awesome-coq is a coq-community project">](https://github.com/coq-community/manifesto)
+[<img src="coq-logo.svg" align="right" width="100" title="Awesome Coq is a coq-community project">](https://github.com/coq-community/manifesto)
 
 > A curated list of awesome Coq libraries, plugins, tools, and resources.
 
 The [Coq proof assistant](https://coq.inria.fr) provides a formal language to write mathematical definitions, executable algorithms, and theorems, together with an environment for semi-interactive development of machine-checked proofs.
+
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## Contents
 
@@ -22,7 +24,6 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
   - [Blogs](#blogs)
   - [Books](#books)
   - [Tutorials and Hints](#tutorials-and-hints)
-- [Contributing](#contributing)
 
 ---
 
@@ -65,14 +66,11 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Package Management
 
-- **Distribution**:
-  - [OPAM](https://opam.ocaml.org) - Flexible git-friendly package manager with multiple compiler support.
-  - [Coq Package Index](https://coq.inria.fr/packages.html) - OPAM-based collection of Coq packages.
-  - [Docker-Coq](https://github.com/coq-community/docker-coq) - Docker images for many versions of Coq.
-
-- **Build Tools**:
-  - [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) - Tool distributed by Coq and based on generating a makefile.
-  - [dune](https://github.com/ocaml/dune) - Composable and opinionated build system for Coq and OCaml (former jbuilder).
+- [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) - Build tool distributed by Coq and based on generating a makefile.
+- [Coq Package Index](https://coq.inria.fr/packages.html) - OPAM-based collection of Coq packages.
+- [Docker-Coq](https://github.com/coq-community/docker-coq) - Docker images for many versions of Coq.
+- [dune](https://github.com/ocaml/dune) - Composable and opinionated build system for Coq and OCaml (former jbuilder).
+- [OPAM](https://opam.ocaml.org) - Flexible Git-friendly package manager with multiple compiler support.
 
 ### Plugins
 
@@ -134,7 +132,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [Official Coq-Club mailing list](https://sympa.inria.fr/sympa/arc/coq-club)
 - [Coq-community package maintenance project](https://github.com/coq-community/manifesto)
 - [Coq subreddit](https://www.reddit.com/r/coq/)
-- [StackOverflow Coq tag](https://stackoverflow.com/questions/tagged/coq)
+- [Stack Overflow Coq tag](https://stackoverflow.com/questions/tagged/coq)
 - [Theoretical Computer Science Stack Exchange Coq tag](https://cstheory.stackexchange.com/questions/tagged/coq)
 - [Coq wiki](https://github.com/coq/coq/wiki)
 - [Mathematical Components wiki](https://github.com/math-comp/math-comp/wiki)
@@ -151,14 +149,14 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Books
 
-- [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) by Yves Bertot and Pierre Castéran (2004) - The first book dedicated to Coq.
-- [Software Foundations](https://softwarefoundations.cis.upenn.edu) by Benjamin Pierce et al. (2007) - Series of Coq-based textbooks on logic, functional programming, and foundations of programming languages, aimed at being accessible to beginners.
-- [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) by Adam Chlipala (2008) - Textbook about practical engineering with Coq which teaches advanced practical tricks and a very specific style of proof.
-- [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) by Andrew W. Appel et al. (2014) - Book that explains how to construct program logics using separation logic, accompanied by a formal model in Coq which is applied to the Clight programming language and other examples.
-- [Formal Reasoning About Programs](http://adam.chlipala.net/frap/) by Adam Chlipala (2017) - Book that simultaneously provides a general introduction to formal logical reasoning about the correctness of programs and to using Coq for this purpose.
-- [Programs and Proofs](https://ilyasergey.net/pnp/) by Ilya Sergey (2017) - Book that gives a brief and practically-oriented introduction to interactive proofs in Coq which emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSReflect proof language.
-- [Computer Arithmetic and Formal Proofs](http://iste.co.uk/book.php?id=1238) by Sylvie Boldo and Guillaume Melquiond (2017) - Book that describes how to formally specify and verify floating-point algorithms in Coq using the Flocq library.
-- [The Mathematical Components book](https://math-comp.github.io/mcb/) by Assia Mahboubi and Enrico Tassi (2018) - Book oriented towards mathematically inclined users, focusing on the the Mathematical Components library and the SSReflect proof language.
+- [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) - The first book dedicated to Coq.
+- [Software Foundations](https://softwarefoundations.cis.upenn.edu) - Series of Coq-based textbooks on logic, functional programming, and foundations of programming languages, aimed at being accessible to beginners.
+- [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) - Textbook about practical engineering with Coq which teaches advanced practical tricks and a very specific style of proof.
+- [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) - Book that explains how to construct program logics using separation logic, accompanied by a formal model in Coq which is applied to the Clight programming language and other examples.
+- [Formal Reasoning About Programs](http://adam.chlipala.net/frap/) - Book that simultaneously provides a general introduction to formal logical reasoning about the correctness of programs and to using Coq for this purpose.
+- [Programs and Proofs](https://ilyasergey.net/pnp/) - Book that gives a brief and practically-oriented introduction to interactive proofs in Coq which emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSReflect proof language.
+- [Computer Arithmetic and Formal Proofs](http://iste.co.uk/book.php?id=1238) - Book that describes how to formally specify and verify floating-point algorithms in Coq using the Flocq library.
+- [The Mathematical Components book](https://math-comp.github.io/mcb/) - Book oriented towards mathematically inclined users, focusing on the the Mathematical Components library and the SSReflect proof language.
 
 ### Tutorials and Hints
 
@@ -167,7 +165,3 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Demonstration of design patterns for programming and proving with canonical structures.
 - [Mike Nahas's Coq Tutorial](https://mdnahas.github.io/doc/nahas_tutorial.html) - Basics of using Coq to write formal proofs.
 - [Tricks in Coq](https://github.com/tchajed/coq-tricks) - Tips, tricks, and features that are hard to discover.
-
-# Contributing
-
-Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
