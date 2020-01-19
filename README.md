@@ -30,10 +30,11 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 ### Frameworks
 
-- [Q\*cert](https://querycert.github.io) - Platform for implementing and verifying query compilers.
+- [CoqEAL](https://github.com/CoqEAL/CoqEAL) - Framework to ease change of data representations in proofs.
 - [Fiat](https://github.com/mit-plv/fiat) - Mostly automated synthesis of correct-by-construction programs.
 - [FreeSpec](https://github.com/ANSSI-FR/FreeSpec) - Framework for modularly verifying programs with effects and effect handlers.
 - [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
+- [Q\*cert](https://querycert.github.io) - Platform for implementing and verifying query compilers.
 - [Verdi](https://github.com/uwplse/verdi) - Framework for formally verifying distributed systems implementations.
 - [VST](https://vst.cs.princeton.edu) - Toolchain for verifying C code inside Coq in a higher-order concurrent, impredicative separation logic that is sound w.r.t. the Clight language of the CompCert compiler.
 
@@ -56,6 +57,8 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
 - [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Formalization of partial commutative monoids as used in verification of pointer-manipulating programs.
 - [Flocq](http://flocq.gforge.inria.fr) - Formalization of floating-point computations.
+- [Formalised undecidable problems in Coq] - Library of undecidable problems and reductions between them.
+- [Metalib](https://github.com/plclub/metalib) - Library for programming language metatheory using locally nameless variable binding representations.
 - [Paco](http://plv.mpi-sws.org/paco/) - Library for parameterized coinduction.
 - [Relation Algebra](https://github.com/damien-pous/relation-algebra) - Modular formalization of algebras with heterogeneous binary relations as models.
 - [TLC](http://www.chargueraud.org/softs/tlc/) - Non-constructive alternative to Coq's standard library.
@@ -90,12 +93,14 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [CFML](https://gitlab.inria.fr/charguer/cfml) - Tool for proving properties of OCaml programs in separation logic.
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
 - [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
-- [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs,  remove unneeded imports, etc.
+- [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs, remove unneeded imports, etc.
 - [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL equivalences.
 - [hs-to-coq](https://github.com/antalsz/hs-to-coq) - Converter from Haskell code to equivalent Coq code.
+- [lngen](https://github.com/plclub/lngen) - Tool for generating locally nameless Coq definitions and proofs.
 - [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - Parser generator that can output Coq code for verified parsers.
+- [mCoq](https://github.com/EngineeringSoftware/mcoq) - Mutation analysis tool for Coq projects.
 - [Ott](https://www.cl.cam.ac.uk/~pes20/ott/) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
-- [SerAPI](https://github.com/ejgallego/coq-serapi) - Library and tool for serialization of Coq code to JSON or S-expressions.
+- [SerAPI](https://github.com/ejgallego/coq-serapi) - Library and tools for serialization of Coq code to JSON and S-expressions.
 
 ### Type Theory and Mathematics
 
@@ -130,6 +135,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [Coq-community package maintenance project](https://github.com/coq-community/manifesto)
 - [Coq subreddit](https://www.reddit.com/r/coq/)
 - [StackOverflow Coq tag](https://stackoverflow.com/questions/tagged/coq)
+- [Theoretical Computer Science Stack Exchange Coq tag](https://cstheory.stackexchange.com/questions/tagged/coq)
 - [Coq wiki](https://github.com/coq/coq/wiki)
 - [Mathematical Components wiki](https://github.com/math-comp/math-comp/wiki)
 
@@ -147,10 +153,10 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 
 - [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) by Yves Bertot and Pierre Castéran (2004) - The first book dedicated to Coq.
 - [Software Foundations](https://softwarefoundations.cis.upenn.edu) by Benjamin Pierce et al. (2007) - Series of Coq-based textbooks on logic, functional programming, and foundations of programming languages, aimed at being accessible to beginners.
-- [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) by Adam Chlipala (2008) - Textbook about practical engineering with Coq which teaches advanced practical tricks and a specific style of proof.
-- [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) by Andrew W. Appel et al (2014) - Book that explains how to construct program logics using separation logic, accompanied by a Coq formal model which is applied to the Clight programming language and other examples.
+- [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) by Adam Chlipala (2008) - Textbook about practical engineering with Coq which teaches advanced practical tricks and a very specific style of proof.
+- [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) by Andrew W. Appel et al. (2014) - Book that explains how to construct program logics using separation logic, accompanied by a formal model in Coq which is applied to the Clight programming language and other examples.
 - [Formal Reasoning About Programs](http://adam.chlipala.net/frap/) by Adam Chlipala (2017) - Book that simultaneously provides a general introduction to formal logical reasoning about the correctness of programs and to using Coq for this purpose.
-- [Programs and Proofs](https://ilyasergey.net/pnp/) by Ilya Sergey (2017) - Book that gives a brief and practically-oriented introduction to the basic concepts of interactive theorem proving using Coq; emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSReflect proof language.
+- [Programs and Proofs](https://ilyasergey.net/pnp/) by Ilya Sergey (2017) - Book that gives a brief and practically-oriented introduction to interactive proofs in Coq which emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSReflect proof language.
 - [Computer Arithmetic and Formal Proofs](http://iste.co.uk/book.php?id=1238) by Sylvie Boldo and Guillaume Melquiond (2017) - Book that describes how to formally specify and verify floating-point algorithms in Coq using the Flocq library.
 - [The Mathematical Components book](https://math-comp.github.io/mcb/) by Assia Mahboubi and Enrico Tassi (2018) - Book oriented towards mathematically inclined users, focusing on the the Mathematical Components library and the SSReflect proof language.
 
