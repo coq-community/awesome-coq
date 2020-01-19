@@ -57,7 +57,7 @@ The [Coq proof assistant](https://coq.inria.fr) provides a formal language to wr
 - [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
 - [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Formalization of partial commutative monoids as used in verification of pointer-manipulating programs.
 - [Flocq](http://flocq.gforge.inria.fr) - Formalization of floating-point computations.
-- [Formalised undecidable problems in Coq] - Library of undecidable problems and reductions between them.
+- [Formalised undecidable problems in Coq](https://github.com/uds-psl/coq-library-undecidability) - Library of undecidable problems and reductions between them.
 - [Metalib](https://github.com/plclub/metalib) - Library for programming language metatheory using locally nameless variable binding representations.
 - [Paco](http://plv.mpi-sws.org/paco/) - Library for parameterized coinduction.
 - [Relation Algebra](https://github.com/damien-pous/relation-algebra) - Modular formalization of algebras with heterogeneous binary relations as models.
