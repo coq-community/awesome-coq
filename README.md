@@ -51,6 +51,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 ### Libraries
 
+- [ALEA](https://github.com/coq-community/alea) - Library for reasoning on randomized algorithms.
 - [Bignums](https://github.com/coq/bignums) - Library of arbitrary large numbers.
 - [CoLoR](http://color.inria.fr) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [coq-haskell](https://github.com/jwiegley/coq-haskell) - Library smoothing the transition to Coq for Haskell users.
@@ -59,6 +60,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Formalization of partial commutative monoids as used in verification of pointer-manipulating programs.
 - [Flocq](http://flocq.gforge.inria.fr) - Formalization of floating-point computations.
 - [Formalised undecidable problems in Coq](https://github.com/uds-psl/coq-library-undecidability) - Library of undecidable problems and reductions between them.
+- [Hahn](https://github.com/vafeiadis/hahn) - Library for reasoning on lists and binary relations.
 - [Metalib](https://github.com/plclub/metalib) - Library for programming language metatheory using locally nameless variable binding representations.
 - [Paco](http://plv.mpi-sws.org/paco/) - Library for parameterized coinduction.
 - [Relation Algebra](https://github.com/damien-pous/relation-algebra) - Modular formalization of algebras with heterogeneous binary relations as models.
@@ -92,13 +94,13 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
 - [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs, remove unneeded imports, etc.
-- [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL equivalences.
+- [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL query equivalences.
 - [hs-to-coq](https://github.com/antalsz/hs-to-coq) - Converter from Haskell code to equivalent Coq code.
 - [lngen](https://github.com/plclub/lngen) - Tool for generating locally nameless Coq definitions and proofs.
 - [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - Parser generator that can output Coq code for verified parsers.
 - [mCoq](https://github.com/EngineeringSoftware/mcoq) - Mutation analysis tool for Coq projects.
 - [Ott](https://www.cl.cam.ac.uk/~pes20/ott/) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
-- [SerAPI](https://github.com/ejgallego/coq-serapi) - Library and tools for serialization of Coq code to JSON and S-expressions.
+- [SerAPI](https://github.com/ejgallego/coq-serapi) - Library and tools for (de)serialization of Coq code to and from JSON and S-expressions.
 
 ### Type Theory and Mathematics
 
@@ -130,22 +132,23 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Official Coq Discourse forum](https://coq.discourse.group)
 - [Official Coq Gitter chat](https://gitter.im/coq/coq)
 - [Official Coq-Club mailing list](https://sympa.inria.fr/sympa/arc/coq-club)
-- [Coq-community package maintenance project](https://github.com/coq-community/manifesto)
+- [Official Coq wiki](https://github.com/coq/coq/wiki)
+- [Official Coq Twitter](https://twitter.com/CoqLang)
+- [coq-community package maintenance project](https://github.com/coq-community/manifesto)
 - [Coq subreddit](https://www.reddit.com/r/coq/)
-- [Stack Overflow Coq tag](https://stackoverflow.com/questions/tagged/coq)
-- [Theoretical Computer Science Stack Exchange Coq tag](https://cstheory.stackexchange.com/questions/tagged/coq)
-- [Coq wiki](https://github.com/coq/coq/wiki)
+- [Coq tag on Stack Overflow](https://stackoverflow.com/questions/tagged/coq)
+- [Coq tag on Theoretical Computer Science Stack Exchange](https://cstheory.stackexchange.com/questions/tagged/coq)
 - [Mathematical Components wiki](https://github.com/math-comp/math-comp/wiki)
 
 ### Blogs
 
-- [Poleiro: a Coq blog by Arthur Azevedo de Amorim](http://poleiro.info)
-- [Guillaume Claret's blog](http://coq-blog.clarus.me)
-- [Gagallium](http://gallium.inria.fr/blog)
-- [Ralf Jung's blog posts on Coq](https://www.ralfj.de/blog/categories/coq.html)
-- [Joachim Breitner's Coq posts](http://www.joachim-breitner.de/blog/tag/Coq)
-- [Gregory Malecha's blog](https://gmalecha.github.io)
 - [Coq Exchange: ideas and experiment reports about Coq](https://project.inria.fr/coqexchange/news/)
+- [Gagallium](http://gallium.inria.fr/blog)
+- [Gregory Malecha's blog](https://gmalecha.github.io)
+- [Guillaume Claret's Coq blog](http://coq-blog.clarus.me)
+- [Joachim Breitner's blog posts on Coq](http://www.joachim-breitner.de/blog/tag/Coq)
+- [Poleiro: a Coq blog by Arthur Azevedo de Amorim](http://poleiro.info)
+- [Ralf Jung's blog posts on Coq](https://www.ralfj.de/blog/categories/coq.html)
 
 ### Books
 
