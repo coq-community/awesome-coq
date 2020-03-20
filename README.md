@@ -127,6 +127,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 - [CompCert](http://compcert.inria.fr) - High-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors.
 - [Fiat-Crypto](https://github.com/mit-plv/fiat-crypto) - Cryptographic primitive code generation.
+- [Incremental Cycles](https://gitlab.inria.fr/agueneau/incremental-cycles) - Verified OCaml implementation of an algorithm for incremental cycle detection in graphs.
 - [JSCert](https://github.com/jscert/jscert) - Coq specification of ECMAScript 5 (JavaScript) with verified reference interpreter.
 - [lambda-rust](https://gitlab.mpi-sws.org/iris/lambda-rust) - Formal model of a Rust core language and type system, a logical relation for the type system, and safety proofs for some Rust libraries.
 - [Verdi Raft](https://github.com/uwplse/verdi-raft) - Implementation of the Raft distributed consensus protocol, verified in Coq using the Verdi framework.
@@ -136,6 +137,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 ### Community
 
 - [Official Coq website](https://coq.inria.fr)
+- [Official Coq manual](https://coq.inria.fr/refman/)
 - [Official Coq Discourse forum](https://coq.discourse.group)
 - [Official Coq Gitter chat](https://gitter.im/coq/coq)
 - [Official Coq-Club mailing list](https://sympa.inria.fr/sympa/arc/coq-club)
