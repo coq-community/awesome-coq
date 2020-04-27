@@ -14,7 +14,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
   - [Frameworks](#frameworks)
   - [User Interfaces](#user-interfaces)
   - [Libraries](#libraries)
-  - [Package Management](#package-management)
+  - [Package and Build Management](#package-and-build-management)
   - [Plugins](#plugins)
   - [Tools](#tools)
   - [Type Theory and Mathematics](#type-theory-and-mathematics)
@@ -68,7 +68,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Relation Algebra](https://github.com/damien-pous/relation-algebra) - Modular formalization of algebras with heterogeneous binary relations as models.
 - [TLC](http://www.chargueraud.org/softs/tlc/) - Non-constructive alternative to Coq's standard library.
 
-### Package Management
+### Package and Build Management
 
 - [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) - Build tool distributed by Coq and based on generating a makefile.
 - [Coq Package Index](https://coq.inria.fr/packages.html) - OPAM-based collection of Coq packages.
