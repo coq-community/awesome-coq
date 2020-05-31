@@ -55,6 +55,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Bignums](https://github.com/coq/bignums) - Library of arbitrary large numbers.
 - [CoLoR](http://color.inria.fr) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [coq-haskell](https://github.com/jwiegley/coq-haskell) - Library smoothing the transition to Coq for Haskell users.
+- [Coq record update](https://github.com/tchajed/coq-record-update) - Library which provides a generic way to update Coq record fields.
 - [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) - Extended alternative standard library for Coq.
 - [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
 - [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Formalization of partial commutative monoids as used in verification of pointer-manipulating programs.
@@ -72,10 +73,11 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 - [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) - Build tool distributed by Coq and based on generating a makefile.
 - [Coq Package Index](https://coq.inria.fr/packages.html) - OPAM-based collection of Coq packages.
+- [Coq-community Templates](https://github.com/coq-community/templates) - Templates for generating configuration files for Coq projects.
 - [Docker-Coq](https://github.com/coq-community/docker-coq) - Docker images for many versions of Coq.
 - [Docker-MathComp](https://github.com/math-comp/docker-mathcomp) - Docker images for many combinations of versions of Coq and the Mathematical Components library.
-- [Docker-Coq-action](https://github.com/marketplace/actions/docker-coq-action) - GitHub container action that can be used with docker-coq or docker-mathcomp.
-- [Dune](https://github.com/ocaml/dune) - Composable and opinionated build system for Coq and OCaml (former jbuilder).
+- [Docker-Coq-action](https://github.com/marketplace/actions/docker-coq-action) - GitHub container action that can be used with Docker-Coq or Docker-MathComp.
+- [Dune](https://dune.build) - Composable and opinionated build system for Coq and OCaml (former jbuilder).
 - [Nix](https://nixos.org/nix/) - Package manager for Linux and other Unix systems, supporting atomic upgrades and rollbacks.
 - [Nix Coq packages](https://nixos.org/nixos/packages.html?channel=nixpkgs-unstable&query=coqPackages) - Collection of Coq-related packages for Nix.
 - [OPAM](https://opam.ocaml.org) - Flexible and Git-friendly package manager for OCaml with multiple compiler support.
@@ -87,6 +89,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [CoqHammer](https://github.com/lukaszcz/coqhammer) - General-purpose automated reasoning hammer tool that combines learning from previous proofs with the translation of problems to automated provers and the reconstruction of found proofs.
 - [Equations](https://github.com/mattam82/Coq-Equations) - Function definition package for Coq.
 - [Gappa](https://gitlab.inria.fr/gappa/coq) - Tactic for discharging goals about floating-point arithmetic and round-off errors.
+- [Hierarchy Builder](https://github.com/math-comp/hierarchy-builder) - Collection of commands for declaring Coq hierarchies based on packed classes.
 - [Ltac2](https://coq.inria.fr/refman/proof-engine/ltac2.html) - Experimental typed tactic language similar to Coq's classic Ltac language.
 - [MetaCoq](https://github.com/MetaCoq/metacoq) - Project formalizing Coq in Coq and providing tools for manipulating Coq terms and developing certified plugins.
 - [Mtac2](https://github.com/Mtac2/Mtac2) - Plugin adding typed tactics for backward reasoning.
@@ -117,6 +120,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Coquelicot](https://gitlab.inria.fr/coquelicot/coquelicot) - Formalization of classical real analysis compatible with the standard library and focusing on usability.
 - [Four Color Theorem](https://github.com/math-comp/fourcolor) - Formal proof of the Four Color Theorem, a landmark result of graph theory.
 - [GeoCoq](https://github.com/GeoCoq/GeoCoq) - Formalization of geometry based on Tarski's axiom system.
+- [Graph Theory](https://github.com/coq-community/graph-theory) - Formalized graph theory results.
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) - Development of homotopy-theoretic ideas.
 - [Infotheo](https://github.com/affeldt-aist/infotheo) - Formalization of information theory and linear error-correcting codes.
 - [Mathematical Components](http://math-comp.github.io) - Formalization of mathematical theories, focusing in particular on group theory.
@@ -140,7 +144,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Official Coq website](https://coq.inria.fr)
 - [Official Coq manual](https://coq.inria.fr/refman/)
 - [Official Coq Discourse forum](https://coq.discourse.group)
-- [Official Coq Gitter chat](https://gitter.im/coq/coq)
+- [Official Coq Zulip chat](https://coq.zulipchat.com)
 - [Official Coq-Club mailing list](https://sympa.inria.fr/sympa/arc/coq-club)
 - [Official Coq wiki](https://github.com/coq/coq/wiki)
 - [Official Coq Twitter](https://twitter.com/CoqLang)
