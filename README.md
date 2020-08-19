@@ -23,6 +23,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
   - [Community](#community)
   - [Blogs](#blogs)
   - [Books](#books)
+  - [Lecture Notes](#lecture-notes)
   - [Tutorials and Hints](#tutorials-and-hints)
 
 ---
@@ -126,6 +127,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Mathematical Components](http://math-comp.github.io) - Formalization of mathematical theories, focusing in particular on group theory.
 - [Math Classes](https://github.com/coq-community/math-classes) - Abstract interfaces for mathematical structures based on type classes.
 - [Odd Order Theorem](https://github.com/math-comp/odd-order) - Formal proof of the Odd Order Theorem, a landmark result of finite group theory.
+- [Puiseuxth](https://github.com/roglo/puiseuxth) - Proof of Puiseux's theorem and computation of roots of polynomials of Puiseux's series.
 - [UniMath](https://github.com/UniMath/UniMath) - Library which aims to formalize a substantial body of mathematics using the univalent point of view.
 
 ### Verified Software
@@ -143,6 +145,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 - [Official Coq website](https://coq.inria.fr)
 - [Official Coq manual](https://coq.inria.fr/refman/)
+- [Official Coq standard library](https://coq.inria.fr/stdlib/)
 - [Official Coq Discourse forum](https://coq.discourse.group)
 - [Official Coq Zulip chat](https://coq.zulipchat.com)
 - [Official Coq-Club mailing list](https://sympa.inria.fr/sympa/arc/coq-club)
@@ -161,6 +164,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Gregory Malecha's blog](https://gmalecha.github.io)
 - [Guillaume Claret's Coq blog](http://coq-blog.clarus.me)
 - [Joachim Breitner's blog posts on Coq](http://www.joachim-breitner.de/blog/tag/Coq)
+- [MIT PLV blog posts on Coq](https://plv.csail.mit.edu/blog/category/coq.html)
 - [Poleiro: a Coq blog by Arthur Azevedo de Amorim](http://poleiro.info)
 - [Ralf Jung's blog posts on Coq](https://www.ralfj.de/blog/categories/coq.html)
 
@@ -174,6 +178,11 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Programs and Proofs](https://ilyasergey.net/pnp/) - Book that gives a brief and practically-oriented introduction to interactive proofs in Coq which emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSReflect proof language.
 - [Computer Arithmetic and Formal Proofs](http://iste.co.uk/book.php?id=1238) - Book that describes how to formally specify and verify floating-point algorithms in Coq using the Flocq library.
 - [The Mathematical Components book](https://math-comp.github.io/mcb/) - Book oriented towards mathematically inclined users, focusing on the Mathematical Components library and the SSReflect proof language.
+
+### Lecture Notes
+
+- [Foundations of Separation Logic](https://chargueraud.org/teach/verif/) - Foundations of separation logic for reasoning about sequential programs in Coq.
+- [Introduction to Computational Logic](https://courses.ps.uni-saarland.de/icl_20/2/Resources) - Introduction to basic logic principles, constructive type theory, and interactive theorem proving with Coq.
 
 ### Tutorials and Hints
 
