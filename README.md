@@ -23,7 +23,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
   - [Community](#community)
   - [Blogs](#blogs)
   - [Books](#books)
-  - [Lecture Notes](#lecture-notes)
+  - [Course Material](#course-material)
   - [Tutorials and Hints](#tutorials-and-hints)
 
 ---
@@ -68,12 +68,13 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Paco](http://plv.mpi-sws.org/paco/) - Library for parameterized coinduction.
 - [Regular Language Representations](https://github.com/coq-community/reglang) - Translations between different definitions of regular languages, including regular expressions and automata.
 - [Relation Algebra](https://github.com/damien-pous/relation-algebra) - Modular formalization of algebras with heterogeneous binary relations as models.
-- [TLC](http://www.chargueraud.org/softs/tlc/) - Non-constructive alternative to Coq's standard library.
+- [TLC](https://github.com/charguer/tlc) - Non-constructive alternative to Coq's standard library.
 
 ### Package and Build Management
 
 - [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) - Build tool distributed by Coq and based on generating a makefile.
 - [Coq Package Index](https://coq.inria.fr/packages.html) - OPAM-based collection of Coq packages.
+- [Coq Platform](https://github.com/MSoegtropIMC/coq-platform) - Experimental curated collection of packages to support Coq use in industry, education, and research.
 - [Coq-community Templates](https://github.com/coq-community/templates) - Templates for generating configuration files for Coq projects.
 - [Docker-Coq](https://github.com/coq-community/docker-coq) - Docker images for many versions of Coq.
 - [Docker-MathComp](https://github.com/math-comp/docker-mathcomp) - Docker images for many combinations of versions of Coq and the Mathematical Components library.
@@ -102,6 +103,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 ### Tools
 
 - [CFML](https://gitlab.inria.fr/charguer/cfml2) - Tool for proving properties of OCaml programs in separation logic.
+- [coq2html](https://github.com/xavierleroy/coq2html) - Alternative HTML documentation generator for Coq.
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
 - [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs, remove unneeded imports, etc.
@@ -117,9 +119,14 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 - [Analysis](https://github.com/math-comp/analysis) - Library for classical real analysis compatible with Mathematical Components.
 - [Category Theory in Coq](https://github.com/jwiegley/category-theory) - Axiom-free formalization of category theory.
+- [Completeness and Decidability of Modal Logic Calculi](https://github.com/coq-community/comp-dec-modal) - Soundness, completeness, and decidability for the logics K, K*, CTL, and PDL.
+- [CoqPrime](https://github.com/thery/coqprime) - Library for certifying primality using Pocklington and Elliptic Curve certificates.
 - [CoRN](https://github.com/coq-community/corn) - Library of constructive real analysis and algebra.
+- [Coqtail](https://github.com/coqtail/coqtail) - Library of results ranging from arithmetic to real and complex analysis.
 - [Coquelicot](https://gitlab.inria.fr/coquelicot/coquelicot) - Formalization of classical real analysis compatible with the standard library and focusing on usability.
+- [Finmap](https://github.com/math-comp/finmap) - Extension of Mathematical Components with finite maps, sets, and multisets.
 - [Four Color Theorem](https://github.com/math-comp/fourcolor) - Formal proof of the Four Color Theorem, a landmark result of graph theory.
+- [Gaia](https://github.com/coq-community/gaia) - Implementation of books from Bourbaki's Elements of Mathematics, including set theory and number theory.
 - [GeoCoq](https://github.com/GeoCoq/GeoCoq) - Formalization of geometry based on Tarski's axiom system.
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Formalized graph theory results.
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) - Development of homotopy-theoretic ideas.
@@ -156,6 +163,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Coq tag on Stack Overflow](https://stackoverflow.com/questions/tagged/coq)
 - [Coq tag on Theoretical Computer Science Stack Exchange](https://cstheory.stackexchange.com/questions/tagged/coq)
 - [Mathematical Components wiki](https://github.com/math-comp/math-comp/wiki)
+- [Planet Coq link aggregator](https://coq.pl-a.net)
 
 ### Blogs
 
@@ -173,15 +181,15 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Coq'Art](https://www.labri.fr/perso/casteran/CoqArt/) - The first book dedicated to Coq.
 - [Software Foundations](https://softwarefoundations.cis.upenn.edu) - Series of Coq-based textbooks on logic, functional programming, and foundations of programming languages, aimed at being accessible to beginners.
 - [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/) - Textbook about practical engineering with Coq which teaches advanced practical tricks and a very specific style of proof.
-- [Program Logics for Certified Compilers](https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers) - Book that explains how to construct program logics using separation logic, accompanied by a formal model in Coq which is applied to the Clight programming language and other examples.
+- [Program Logics for Certified Compilers](https://www.cs.princeton.edu/~appel/papers/plcc.pdf) - Book that explains how to construct program logics using separation logic, accompanied by a formal model in Coq which is applied to the Clight programming language and other examples.
 - [Formal Reasoning About Programs](http://adam.chlipala.net/frap/) - Book that simultaneously provides a general introduction to formal logical reasoning about the correctness of programs and to using Coq for this purpose.
 - [Programs and Proofs](https://ilyasergey.net/pnp/) - Book that gives a brief and practically-oriented introduction to interactive proofs in Coq which emphasizes the computational nature of inductive reasoning about decidable propositions via a small set of primitives from the SSReflect proof language.
 - [Computer Arithmetic and Formal Proofs](http://iste.co.uk/book.php?id=1238) - Book that describes how to formally specify and verify floating-point algorithms in Coq using the Flocq library.
 - [The Mathematical Components book](https://math-comp.github.io/mcb/) - Book oriented towards mathematically inclined users, focusing on the Mathematical Components library and the SSReflect proof language.
 
-### Lecture Notes
+### Course Material
 
-- [Foundations of Separation Logic](https://chargueraud.org/teach/verif/) - Foundations of separation logic for reasoning about sequential programs in Coq.
+- [Foundations of Separation Logic](https://chargueraud.org/teach/verif/) - Introduction to using separation logic to reason about sequential imperative programs in Coq.
 - [Introduction to Computational Logic](https://courses.ps.uni-saarland.de/icl_20/2/Resources) - Introduction to basic logic principles, constructive type theory, and interactive theorem proving with Coq.
 
 ### Tutorials and Hints
