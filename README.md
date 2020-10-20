@@ -33,6 +33,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 ### Frameworks
 
 - [CoqEAL](https://github.com/CoqEAL/CoqEAL) - Framework to ease change of data representations in proofs.
+- [FCF](https://github.com/adampetcher/fcf) - Framework for proofs of cryptography.
 - [Fiat](https://github.com/mit-plv/fiat) - Mostly automated synthesis of correct-by-construction programs.
 - [FreeSpec](https://github.com/ANSSI-FR/FreeSpec) - Framework for modularly verifying programs with effects and effect handlers.
 - [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
@@ -112,7 +113,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [lngen](https://github.com/plclub/lngen) - Tool for generating locally nameless Coq definitions and proofs.
 - [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - Parser generator that can output Coq code for verified parsers.
 - [mCoq](https://github.com/EngineeringSoftware/mcoq) - Mutation analysis tool for Coq projects.
-- [Ott](https://www.cl.cam.ac.uk/~pes20/ott/) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
+- [Ott](https://github.com/ott-lang/ott) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
 - [SerAPI](https://github.com/ejgallego/coq-serapi) - Library and tools for (de)serialization of Coq code to and from JSON and S-expressions.
 
 ### Type Theory and Mathematics
@@ -122,7 +123,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Completeness and Decidability of Modal Logic Calculi](https://github.com/coq-community/comp-dec-modal) - Soundness, completeness, and decidability for the logics K, K*, CTL, and PDL.
 - [CoqPrime](https://github.com/thery/coqprime) - Library for certifying primality using Pocklington and Elliptic Curve certificates.
 - [CoRN](https://github.com/coq-community/corn) - Library of constructive real analysis and algebra.
-- [Coqtail](https://github.com/coqtail/coqtail) - Library of results ranging from arithmetic to real and complex analysis.
+- [Coqtail Math](https://github.com/coq-community/coqtail-math) - Library of mathematical results ranging from arithmetic to real and complex analysis.
 - [Coquelicot](https://gitlab.inria.fr/coquelicot/coquelicot) - Formalization of classical real analysis compatible with the standard library and focusing on usability.
 - [Finmap](https://github.com/math-comp/finmap) - Extension of Mathematical Components with finite maps, sets, and multisets.
 - [Four Color Theorem](https://github.com/math-comp/fourcolor) - Formal proof of the Four Color Theorem, a landmark result of graph theory.
@@ -173,9 +174,10 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Guillaume Claret's Coq blog](http://coq-blog.clarus.me)
 - [Joachim Breitner's blog posts on Coq](http://www.joachim-breitner.de/blog/tag/Coq)
 - [MIT PLV blog posts on Coq](https://plv.csail.mit.edu/blog/category/coq.html)
+- [PLClub Blog](https://www.seas.upenn.edu/~plclub/blog/)
 - [Poleiro: a Coq blog by Arthur Azevedo de Amorim](http://poleiro.info)
 - [Ralf Jung's blog posts on Coq](https://www.ralfj.de/blog/categories/coq.html)
-- [Thomas Letan’s blog posts on Coq](https://soap.coffee/~lthms/#coq)
+- [Thomas Letan's blog posts on Coq](https://soap.coffee/~lthms/#coq)
 
 ### Books
 
