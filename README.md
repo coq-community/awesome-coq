@@ -49,7 +49,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Company-Coq](https://github.com/cpitclaudel/company-coq) - IDE extensions for Proof General's Coq mode.
 - [jsCoq](https://github.com/ejgallego/jscoq) - Port of Coq to JavaScript, which enables running Coq projects in a browser.
 - [Jupyter kernel for Coq](https://github.com/EugeneLoy/coq_jupyter) - Coq support for the Jupyter Notebook web environment.
-- [VSCoq](https://github.com/coq-community/vscoq) - Visual Studio Code extension.
+- [VSCoq](https://github.com/coq-community/vscoq) - Extension for the Visual Studio Code editor.
 
 ### Libraries
 
@@ -69,11 +69,12 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Paco](http://plv.mpi-sws.org/paco/) - Library for parameterized coinduction.
 - [Regular Language Representations](https://github.com/coq-community/reglang) - Translations between different definitions of regular languages, including regular expressions and automata.
 - [Relation Algebra](https://github.com/damien-pous/relation-algebra) - Modular formalization of algebras with heterogeneous binary relations as models.
+- [Simple IO](https://github.com/Lysxia/coq-simple-io) - Input/output monad with user-definable primitive operations.
 - [TLC](https://github.com/charguer/tlc) - Non-constructive alternative to Coq's standard library.
 
 ### Package and Build Management
 
-- [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) - Build tool distributed by Coq and based on generating a makefile.
+- [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) - Build tool distributed with Coq and based on generating a makefile.
 - [Coq Package Index](https://coq.inria.fr/packages.html) - OPAM-based collection of Coq packages.
 - [Coq Platform](https://github.com/MSoegtropIMC/coq-platform) - Experimental curated collection of packages to support Coq use in industry, education, and research.
 - [Coq-community Templates](https://github.com/coq-community/templates) - Templates for generating configuration files for Coq projects.
@@ -109,11 +110,12 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs, remove unneeded imports, etc.
 - [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL query equivalences.
-- [hs-to-coq](https://github.com/antalsz/hs-to-coq) - Converter from Haskell code to equivalent Coq code.
+- [hs-to-coq](https://github.com/plclub/hs-to-coq) - Converter from Haskell code to equivalent Coq code.
 - [lngen](https://github.com/plclub/lngen) - Tool for generating locally nameless Coq definitions and proofs.
 - [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - Parser generator that can output Coq code for verified parsers.
 - [mCoq](https://github.com/EngineeringSoftware/mcoq) - Mutation analysis tool for Coq projects.
 - [Ott](https://github.com/ott-lang/ott) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
+- [Roosterize](https://github.com/EngineeringSoftware/roosterize) - Tool for suggesting lemma names in Coq projects.
 - [SerAPI](https://github.com/ejgallego/coq-serapi) - Library and tools for (de)serialization of Coq code to and from JSON and S-expressions.
 
 ### Type Theory and Mathematics
