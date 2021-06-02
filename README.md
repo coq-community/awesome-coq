@@ -147,6 +147,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Incremental Cycles](https://gitlab.inria.fr/agueneau/incremental-cycles) - Verified OCaml implementation of an algorithm for incremental cycle detection in graphs.
 - [JSCert](https://github.com/jscert/jscert) - Coq specification of ECMAScript 5 (JavaScript) with verified reference interpreter.
 - [lambda-rust](https://gitlab.mpi-sws.org/iris/lambda-rust) - Formal model of a Rust core language and type system, a logical relation for the type system, and safety proofs for some Rust libraries.
+- [Vélus](http://velus.inria.fr/) - Verified compiler for a Lustre/Scade-like dataflow synchronous language.
 - [Verdi Raft](https://github.com/uwplse/verdi-raft) - Implementation of the Raft distributed consensus protocol, verified in Coq using the Verdi framework.
 
 ## Resources
