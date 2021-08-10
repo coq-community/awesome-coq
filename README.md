@@ -166,6 +166,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Official Coq-Club mailing list](https://sympa.inria.fr/sympa/arc/coq-club)
 - [Official Coq wiki](https://github.com/coq/coq/wiki)
 - [Official Coq Twitter](https://twitter.com/CoqLang)
+- [100 famous theorems proved using Coq](https://github.com/coq-community/coq-100-theorems)
 - [coq-community package maintenance project](https://github.com/coq-community/manifesto)
 - [Coq subreddit](https://www.reddit.com/r/coq/)
 - [Coq tag on Stack Overflow](https://stackoverflow.com/questions/tagged/coq)
