@@ -133,6 +133,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Four Color Theorem](https://github.com/math-comp/fourcolor) - Formal proof of the Four Color Theorem, a landmark result of graph theory.
 - [Gaia](https://github.com/coq-community/gaia) - Implementation of books from Bourbaki's Elements of Mathematics, including set theory and number theory.
 - [GeoCoq](https://github.com/GeoCoq/GeoCoq) - Formalization of geometry based on Tarski's axiom system.
+- [Goedel](https://github.com/coq-community/goedel) - Constructive proof of the Gödel-Rosser incompleteness theorem.
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Formalized graph theory results.
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) - Development of homotopy-theoretic ideas.
 - [Infotheo](https://github.com/affeldt-aist/infotheo) - Formalization of information theory and linear error-correcting codes.
