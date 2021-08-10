@@ -144,6 +144,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 ### Verified Software
 
 - [CompCert](http://compcert.inria.fr) - High-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors.
+- [Ceramist](https://github.com/certichain/ceramist) - Verified hash-based approximate membership structures such as Bloom filters.
 - [Fiat-Crypto](https://github.com/mit-plv/fiat-crypto) - Cryptographic primitive code generation.
 - [Incremental Cycles](https://gitlab.inria.fr/agueneau/incremental-cycles) - Verified OCaml implementation of an algorithm for incremental cycle detection in graphs.
 - [JSCert](https://github.com/jscert/jscert) - Coq specification of ECMAScript 5 (JavaScript) with verified reference interpreter.
