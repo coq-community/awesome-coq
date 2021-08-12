@@ -111,6 +111,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [coqdoc](https://coq.inria.fr/refman/using/tools/coqdoc.html) - Standard documentation tool generating LaTeX or HTML files from Coq code.
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
 - [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
+- [coq-scripts](https://github.com/JasonGross/coq-scripts) - Scripts for dealing with Coq files, including tabulating proof times.
 - [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts to help construct small reproducing examples of bugs, remove unneeded imports, etc.
 - [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL query equivalences.
 - [hs-to-coq](https://github.com/plclub/hs-to-coq) - Converter from Haskell code to equivalent Coq code.
