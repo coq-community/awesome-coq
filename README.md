@@ -37,7 +37,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Fiat](https://github.com/mit-plv/fiat) - Mostly automated synthesis of correct-by-construction programs.
 - [FreeSpec](https://github.com/ANSSI-FR/FreeSpec) - Framework for modularly verifying programs with effects and effect handlers.
 - [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
-- [Q\*cert](https://querycert.github.io) - Platform for implementing and verifying query compilers.
+- [Q\*cert](https://github.com/querycert/qcert) - Platform for implementing and verifying query compilers.
 - [Verdi](https://github.com/uwplse/verdi) - Framework for formally verifying distributed systems implementations.
 - [VST](https://vst.cs.princeton.edu) - Toolchain for verifying C code inside Coq in a higher-order concurrent, impredicative separation logic that is sound w.r.t. the Clight language of the CompCert compiler.
 
