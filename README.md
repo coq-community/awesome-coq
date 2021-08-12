@@ -75,7 +75,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 ### Package and Build Management
 
 - [coq_makefile](https://coq.inria.fr/refman/practical-tools/utilities.html) - Build tool distributed with Coq and based on generating a makefile.
-- [Coq Nix Toolbox](https://github.com/coq-community/coq-nix-toolbox) - Nix helper scripts to automate local builds and CI for Coq.
+- [Coq Nix Toolbox](https://github.com/coq-community/coq-nix-toolbox) - Nix helper scripts to automate local builds and continuous integration for Coq.
 - [Coq Package Index](https://coq.inria.fr/packages.html) - OPAM-based collection of Coq packages.
 - [Coq platform](https://github.com/coq/platform) - Curated collection of packages to support Coq use in industry, education, and research.
 - [coq-community Templates](https://github.com/coq-community/templates) - Templates for generating configuration files for Coq projects.
