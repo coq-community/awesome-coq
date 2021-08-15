@@ -90,7 +90,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 ### Plugins
 
 - [AAC Tactics](https://github.com/coq-community/aac-tactics) - Tactics for rewriting universally quantified equations, modulo associativity and commutativity of some operator.
-- [Coq-Elpi](https://github.com/LPCIC/coq-elpi) - Plugin for the Embeddable Lambda Prolog Interpreter.
+- [Coq-Elpi](https://github.com/LPCIC/coq-elpi) - Extension framework based on λProlog providing an extensive set of API to implement commands and tactics.
 - [CoqHammer](https://github.com/lukaszcz/coqhammer) - General-purpose automated reasoning hammer tool that combines learning from previous proofs with the translation of problems to automated provers and the reconstruction of found proofs.
 - [Equations](https://github.com/mattam82/Coq-Equations) - Function definition package for Coq.
 - [Gappa](https://gitlab.inria.fr/gappa/coq) - Tactic for discharging goals about floating-point arithmetic and round-off errors.
