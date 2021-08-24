@@ -209,7 +209,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 - [Foundations of Separation Logic](https://chargueraud.org/teach/verif/) - Introduction to using separation logic to reason about sequential imperative programs in Coq.
 - [Introduction to Computational Logic](https://cms.sic.saarland/icl_21/2/Resources) - Introduction to basic logic principles, constructive type theory, and interactive theorem proving with Coq.
-- [Proofs and reliable programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2020/)
+- [Proofs and reliable programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2020/) - Introduction to developing and verifying programs with Coq.
 
 ### Tutorials and Hints
 
