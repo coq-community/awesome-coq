@@ -113,14 +113,14 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
 - [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [coq-scripts](https://github.com/JasonGross/coq-scripts) - Scripts for dealing with Coq files, including tabulating proof times.
-- [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts for manipulating Coq developments, including:
-    + [`find-bug.py`](https://github.com/JasonGross/coq-tools/blob/master/find-bug.py) automatically minimizes a `.v` file producing an error, allowing automatic creation of small stand-alone test cases for Coq bugs;
-    + [`absolutize-imports.py`](https://github.com/JasonGross/coq-tools/blob/master/absolutize-imports.py) processes `.v` files, replacing things like `Require Import Program.` with `Require Import Coq.Program.Program;`, making `Require`s robust against shadowing of file names.
-    + [`inline-imports.py`](https://github.com/JasonGross/coq-tools/blob/master/inline-imports.py) inlines the `Require`d dependencies of a `.v` file, allowing the automatic creation of stand-alone files from developments;
-    + [`minimize-requires.py`](https://github.com/JasonGross/coq-tools/blob/master/minimize-requires.py) removes unused `Require` and `Require Import` statements, and, optionally, unused `Require Export` statements;
-    + [`move-requires.py`](https://github.com/JasonGross/coq-tools/blob/master/move-requires.py) splits all `Require Import` and `Require Export` statements into separate `Require` and `Import`/`Export` statements, and moves all `Require` statements to the top of a `.v` file;
-    + [`move-vernaculars.py`](https://github.com/JasonGross/coq-tools/blob/master/move-vernaculars.py) lifts many vernacular commands and inner lemmas out of `Proof. &hellip; Qed.` blocks;
-    + [`proof-using-helper.py`](https://github.com/JasonGross/coq-tools/blob/master/proof-using-helper.py) processes the output of running `coqc` on a file with `Suggest Proof Using` set, to modify the file with the given `Proof using` suggestions.
+- [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts for manipulating Coq developments.
+  - [`find-bug.py`](https://github.com/JasonGross/coq-tools/blob/master/find-bug.py) - Automatically minimizes source files producing an error, creating small test cases for Coq bugs.
+  - [`absolutize-imports.py`](https://github.com/JasonGross/coq-tools/blob/master/absolutize-imports.py) - Processes source files to make loading of dependencies robust against shadowing of file names.
+  - [`inline-imports.py`](https://github.com/JasonGross/coq-tools/blob/master/inline-imports.py) - Creates stand-alone source files from developments by inlining the loading of all dependencies.
+  - [`minimize-requires.py`](https://github.com/JasonGross/coq-tools/blob/master/minimize-requires.py) - Removes loading of unused dependencies.
+  - [`move-requires.py`](https://github.com/JasonGross/coq-tools/blob/master/move-requires.py) - Moves all dependency loading statements to the top of source files.
+  - [`move-vernaculars.py`](https://github.com/JasonGross/coq-tools/blob/master/move-vernaculars.py) - Lifts many vernacular commands and inner lemmas out of proof script blocks.
+  - [`proof-using-helper.py`](https://github.com/JasonGross/coq-tools/blob/master/proof-using-helper.py) - Modifies source files to include proof annotations for faster parallel proving.
 - [Cosette](https://github.com/uwdb/Cosette) - Automated solver for reasoning about SQL query equivalences.
 - [hs-to-coq](https://github.com/plclub/hs-to-coq) - Converter from Haskell code to equivalent Coq code.
 - [lngen](https://github.com/plclub/lngen) - Tool for generating locally nameless Coq definitions and proofs.
