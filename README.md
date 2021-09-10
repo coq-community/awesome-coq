@@ -179,12 +179,13 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Official Coq-Club mailing list](https://sympa.inria.fr/sympa/arc/coq-club)
 - [Official Coq wiki](https://github.com/coq/coq/wiki)
 - [Official Coq Twitter](https://twitter.com/CoqLang)
-- [100 famous theorems proved using Coq](https://github.com/coq-community/coq-100-theorems)
-- [coq-community package maintenance project](https://github.com/coq-community/manifesto)
+- [Coq Zulip chat archive](https://coq.gitlab.io/zulip-archive/)
 - [Coq subreddit](https://www.reddit.com/r/coq/)
 - [Coq tag on Stack Overflow](https://stackoverflow.com/questions/tagged/coq)
 - [Coq tag on Theoretical Computer Science Stack Exchange](https://cstheory.stackexchange.com/questions/tagged/coq)
+- [coq-community package maintenance project](https://github.com/coq-community/manifesto)
 - [Mathematical Components wiki](https://github.com/math-comp/math-comp/wiki)
+- [100 famous theorems proved using Coq](https://github.com/coq-community/coq-100-theorems)
 - [Planet Coq link aggregator](https://coq.pl-a.net)
 
 ### Blogs
