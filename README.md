@@ -56,6 +56,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 
 - [ALEA](https://github.com/coq-community/alea) - Library for reasoning on randomized algorithms.
 - [Bignums](https://github.com/coq/bignums) - Library of arbitrarily large numbers.
+- [Bedrock Bit Vectors](https://github.com/mit-plv/bbv) - Library for reasoning on fixed precision machine words.
 - [CoLoR](http://color.inria.fr) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [coq-haskell](https://github.com/jwiegley/coq-haskell) - Library smoothing the transition to Coq for Haskell users.
 - [Coq record update](https://github.com/tchajed/coq-record-update) - Library which provides a generic way to update Coq record fields.
@@ -113,7 +114,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [coq2html](https://github.com/xavierleroy/coq2html) - Alternative HTML documentation generator for Coq.
 - [coqdoc](https://coq.inria.fr/refman/using/tools/coqdoc.html) - Standard documentation tool that generates LaTeX or HTML files from Coq code.
 - [CoqOfOCaml](https://github.com/clarus/coq-of-ocaml) - Tool for generating idiomatic Coq from OCaml code.
-- [coq-dpdgraph](https://github.com/Karmaki/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
+- [coq-dpdgraph](https://github.com/coq-community/coq-dpdgraph) - Tool for building dependency graphs between Coq objects.
 - [coq-scripts](https://github.com/JasonGross/coq-scripts) - Scripts for dealing with Coq files, including tabulating proof times.
 - [coq-tools](https://github.com/JasonGross/coq-tools) - Scripts for manipulating Coq developments.
   - [`find-bug.py`](https://github.com/JasonGross/coq-tools/blob/master/find-bug.py) - Automatically minimizes source files producing an error, creating small test cases for Coq bugs.
