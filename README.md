@@ -57,13 +57,13 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [ALEA](https://github.com/coq-community/alea) - Library for reasoning on randomized algorithms.
 - [Bignums](https://github.com/coq/bignums) - Library of arbitrarily large numbers.
 - [Bedrock Bit Vectors](https://github.com/mit-plv/bbv) - Library for reasoning on fixed precision machine words.
-- [CoLoR](http://color.inria.fr) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
+- [CoLoR](https://github.com/fblanqui/color) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [coq-haskell](https://github.com/jwiegley/coq-haskell) - Library smoothing the transition to Coq for Haskell users.
 - [Coq record update](https://github.com/tchajed/coq-record-update) - Library which provides a generic way to update Coq record fields.
 - [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) - Extended alternative standard library for Coq.
 - [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
 - [FCSL-PCM](https://github.com/imdea-software/fcsl-pcm) - Formalization of partial commutative monoids as used in verification of pointer-manipulating programs.
-- [Flocq](http://flocq.gforge.inria.fr) - Formalization of floating-point computations.
+- [Flocq](https://gitlab.inria.fr/flocq/flocq) - Formalization of floating-point numbers and computations.
 - [Formalised Undecidable Problems](https://github.com/uds-psl/coq-library-undecidability) - Library of undecidable problems and reductions between them.
 - [Hahn](https://github.com/vafeiadis/hahn) - Library for reasoning on lists and binary relations.
 - [Mczify](https://github.com/math-comp/mczify) - Library enabling Micromega arithmetic solvers to work when using Mathematical Components number definitions.
