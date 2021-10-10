@@ -228,7 +228,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [Coq'Art Exercises and Tutorials](https://github.com/coq-community/coq-art) - Coq code and exercises from the Coq'Art book, including additional tutorials.
 - [Coq in a Hurry](http://cel.archives-ouvertes.fr/inria-00001173) - Introduction to how Coq can be used to define logical concepts and functions and reason about them.
 - [Coq requirements in Common Criteria evaluations](https://www.ssi.gouv.fr/uploads/2014/11/anssi-requirements-on-the-use-of-coq-in-the-context-of-common-criteria-evaluations-v1.0-en.pdf) - Guide on how to write readable and reviewable Coq code in high assurance applications.
-- [Hydra battles and Cie](https://github.com/coq-community/hydra-battles) - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq, including documentation and exercises.
+- [Hydras, Ordinals & Co.](https://github.com/coq-community/hydra-battles) - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq, including documentation and exercises.
 - [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Demonstration of design patterns for programming and proving with canonical structures.
 - [MathComp Tutorial Materials](https://github.com/math-comp/tutorial_material) - Source code for Mathematical Components tutorials.
 - [Mike Nahas's Coq Tutorial](https://mdnahas.github.io/doc/nahas_tutorial.html) - Basics of using Coq to write formal proofs.
