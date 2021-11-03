@@ -60,6 +60,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Bedrock Bit Vectors](https://github.com/mit-plv/bbv) - Library for reasoning on fixed precision machine words.
 - [CoLoR](https://github.com/fblanqui/color) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [coq-haskell](https://github.com/jwiegley/coq-haskell) - Library smoothing the transition to Coq for Haskell users.
+- [CoqInterval](https://gitlab.inria.fr/coqinterval/interval/) - Tactics for performing proofs of inequalities on expressions of real numbers.
 - [Coq record update](https://github.com/tchajed/coq-record-update) - Library which provides a generic way to update Coq record fields.
 - [Coq-std++](https://gitlab.mpi-sws.org/iris/stdpp) - Extended alternative standard library for Coq.
 - [ExtLib](https://github.com/coq-community/coq-ext-lib) - Collection of theories and plugins that may be useful in other Coq developments.
