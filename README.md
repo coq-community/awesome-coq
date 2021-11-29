@@ -58,6 +58,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Algebra Tactics](https://github.com/math-comp/algebra-tactics) - Ring and field tactics for Mathematical Components.
 - [Bignums](https://github.com/coq/bignums) - Library of arbitrarily large numbers.
 - [Bedrock Bit Vectors](https://github.com/mit-plv/bbv) - Library for reasoning on fixed precision machine words.
+- [CertiGraph](https://github.com/Salamari/CertiGraph) - Library for reasoning about directed graphs and their embedding in separation logic.
 - [CoLoR](https://github.com/fblanqui/color) - Library on rewriting theory, lambda-calculus and termination, with sub-libraries on common data structures extending the Coq standard library.
 - [coq-haskell](https://github.com/jwiegley/coq-haskell) - Library smoothing the transition to Coq for Haskell users.
 - [CoqInterval](https://gitlab.inria.fr/coqinterval/interval/) - Tactics for performing proofs of inequalities on expressions of real numbers.
