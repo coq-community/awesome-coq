@@ -226,8 +226,9 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 ### Course Material
 
 - [Foundations of Separation Logic](https://chargueraud.org/teach/verif/) - Introduction to using separation logic to reason about sequential imperative programs in Coq.
-- [Introduction to Computational Logic](https://cms.sic.saarland/icl_21/2/Resources) - Introduction to basic logic principles, constructive type theory, and interactive theorem proving with Coq.
-- [Proofs and reliable programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2020/) - Introduction to developing and verifying programs with Coq.
+- [Floating-Point Numbers and Formal Proof](https://github.com/thery/FlocqLecture) - Introductory course on Coq real numbers and floating-point numbers from the Flocq library.
+- [Introduction to Computational Logic](https://cms.sic.saarland/icl_21/2/Resources) - Introduction to principles of logic, constructive type theory, and interactive theorem proving with Coq.
+- [Proofs and Reliable Programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2020/) - Introduction to developing and verifying programs with Coq.
 
 ### Tutorials and Hints
 
