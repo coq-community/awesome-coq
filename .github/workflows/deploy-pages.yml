@@ -19,12 +19,14 @@ jobs:
         run: |
           mkdir public
           cp README.md public/index.md
+          echo 'theme: jekyll-theme-cayman' > public/_config.yml
 
       - name: Deploy to GitHub pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: crazy-max/ghaction-github-pages@v2
         with:
           build_dir: public
+          target_branch: gh-pages
           jekyll: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
