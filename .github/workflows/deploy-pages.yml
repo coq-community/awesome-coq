@@ -1,0 +1,30 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  deploy-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Copy README to index
+        run: |
+          mkdir public
+          cp README.md public/index.md
+
+      - name: Deploy to GitHub pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          build_dir: public
+          jekyll: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
