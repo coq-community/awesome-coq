@@ -1,6 +1,6 @@
 # Awesome Coq [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[<img src="coq-logo.svg" align="right" width="100" alt="Awesome Coq is a coq-community project">](https://github.com/coq-community/manifesto)
+[<img src="coq-logo.svg" align="right" width="100" alt="coq-community logo" title="Awesome Coq is a coq-community project">](https://github.com/coq-community/manifesto)
 
 > A curated list of awesome Coq libraries, plugins, tools, and resources.
 
