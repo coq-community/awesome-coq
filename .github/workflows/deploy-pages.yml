@@ -15,10 +15,11 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
-      - name: Copy README to index
+      - name: Copy content to deploy
         run: |
           mkdir public
           cp README.md public/index.md
+          cp coq-logo.svg public/
           echo 'theme: jekyll-theme-cayman' > public/_config.yml
 
       - name: Deploy to GitHub pages
