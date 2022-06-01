@@ -32,6 +32,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 
 ### Frameworks
 
+- [ConCert](https://github.com/AU-COBRA/ConCert) - Framework for smart contract testing and verification featuring a code extraction pipeline to several smart contract languages.
 - [CoqEAL](https://github.com/CoqEAL/CoqEAL) - Framework to ease change of data representations in proofs.
 - [FCF](https://github.com/adampetcher/fcf) - Framework for proofs of cryptography.
 - [Fiat](https://github.com/mit-plv/fiat) - Mostly automated synthesis of correct-by-construction programs.
