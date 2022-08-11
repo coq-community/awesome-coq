@@ -40,6 +40,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Hybrid](https://www.site.uottawa.ca/~afelty/HybridCoq/) - System for reasoning using higher-order abstract syntax representations of object logics.
 - [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
 - [Q\*cert](https://github.com/querycert/qcert) - Platform for implementing and verifying query compilers.
+- [VCFloat2](https://github.com/VeriNum/vcfloat) - Framework for verifying C programs with floating-point computations.
 - [Verdi](https://github.com/uwplse/verdi) - Framework for formally verifying distributed systems implementations.
 - [VST](https://vst.cs.princeton.edu) - Toolchain for verifying C code inside Coq in a higher-order concurrent, impredicative separation logic that is sound w.r.t. the Clight language of the CompCert compiler.
 
@@ -51,7 +52,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Company-Coq](https://github.com/cpitclaudel/company-coq) - IDE extensions for Proof General's Coq mode.
 - [jsCoq](https://github.com/ejgallego/jscoq) - Port of Coq to JavaScript, which enables running Coq projects in a browser.
 - [Jupyter kernel for Coq](https://github.com/EugeneLoy/coq_jupyter) - Coq support for the Jupyter Notebook web environment.
-- [VSCoq](https://github.com/coq-community/vscoq) - Extension for the Visual Studio Code editor.
+- [VsCoq](https://github.com/coq-community/vscoq) - Extension for the Visual Studio Code and VSCodium editors.
 
 ### Libraries
 
@@ -137,6 +138,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - Parser generator that can output Coq code for verified parsers.
 - [mCoq](https://github.com/EngineeringSoftware/mcoq) - Mutation analysis tool for Coq projects.
 - [Ott](https://github.com/ott-lang/ott) - Tool for writing definitions of programming languages and calculi that can be translated to Coq.
+- [PyCoq](https://github.com/ejgallego/pycoq) - Set of bindings and libraries for interacting with Coq from inside Python 3.
 - [Roosterize](https://github.com/EngineeringSoftware/roosterize) - Tool for suggesting lemma names in Coq projects.
 - [Sail](https://github.com/rems-project/sail) - Tool for specifying instruction set architecture semantics of processors and generating Coq definitions.
 - [SerAPI](https://github.com/ejgallego/coq-serapi) - Tools and OCaml library for (de)serialization of Coq code to and from JSON and S-expressions.
@@ -209,6 +211,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Gregory Malecha's blog](https://gmalecha.github.io)
 - [Guillaume Claret's Coq blog](http://coq-blog.clarus.me)
 - [Joachim Breitner's blog posts on Coq](http://www.joachim-breitner.de/blog/tag/Coq)
+- [Lysxia's blog](https://blog.poisson.chat)
 - [MIT PLV blog posts on Coq](https://plv.csail.mit.edu/blog/category/coq.html)
 - [PLClub Blog](https://www.seas.upenn.edu/~plclub/blog/)
 - [Poleiro: a Coq blog by Arthur Azevedo de Amorim](http://poleiro.info)
