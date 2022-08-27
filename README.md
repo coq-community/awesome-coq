@@ -40,7 +40,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Hybrid](https://www.site.uottawa.ca/~afelty/HybridCoq/) - System for reasoning using higher-order abstract syntax representations of object logics.
 - [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
 - [Q\*cert](https://github.com/querycert/qcert) - Platform for implementing and verifying query compilers.
-- [VCFloat2](https://github.com/VeriNum/vcfloat) - Framework for verifying C programs with floating-point computations.
+- [VCFloat](https://github.com/VeriNum/vcfloat) - Framework for verifying C programs with floating-point computations.
 - [Verdi](https://github.com/uwplse/verdi) - Framework for formally verifying distributed systems implementations.
 - [VST](https://vst.cs.princeton.edu) - Toolchain for verifying C code inside Coq in a higher-order concurrent, impredicative separation logic that is sound w.r.t. the Clight language of the CompCert compiler.
 
@@ -199,6 +199,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Coq tag on Stack Overflow](https://stackoverflow.com/questions/tagged/coq)
 - [Coq tag on Theoretical Computer Science Stack Exchange](https://cstheory.stackexchange.com/questions/tagged/coq)
 - [Coq tag on Proof Assistants Stack Exchange](https://proofassistants.stackexchange.com/questions/tagged/coq)
+- [Coq keyword on Zenodo](https://zenodo.org/search?q=keywords%3A%22Coq%22)
 - [coq-community package maintenance project](https://github.com/coq-community/manifesto)
 - [Mathematical Components wiki](https://github.com/math-comp/math-comp/wiki)
 - [100 famous theorems proved using Coq](https://github.com/coq-community/coq-100-theorems)
@@ -235,7 +236,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 
 - [Foundations of Separation Logic](https://chargueraud.org/teach/verif/) - Introduction to using separation logic to reason about sequential imperative programs in Coq.
 - [Floating-Point Numbers and Formal Proof](https://github.com/thery/FlocqLecture) - Introductory course on Coq real numbers and floating-point numbers from the Flocq library.
-- [Proofs and Reliable Programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2020/) - Introduction to developing and verifying programs with Coq.
+- [Proofs and Reliable Programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2021/) - Introduction to developing and verifying programs with Coq.
 
 ### Tutorials and Hints
 
