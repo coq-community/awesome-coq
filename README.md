@@ -72,6 +72,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Formalised Undecidable Problems](https://github.com/uds-psl/coq-library-undecidability) - Library of undecidable problems and reductions between them.
 - [Hahn](https://github.com/vafeiadis/hahn) - Library for reasoning on lists and binary relations.
 - [Interaction Trees](https://github.com/DeepSpec/InteractionTrees) - Library for representing recursive and impure programs.
+- [LibHyps](https://github.com/Matafou/LibHyps) - Library of Ltac tactics to manage and manipulate hypotheses in proofs.
 - [MathComp Extra](https://github.com/thery/mathcomp-extra) - Extra material for the Mathematical Components library, including the AKS primality test and RSA encryption and decryption.
 - [Mczify](https://github.com/math-comp/mczify) - Library enabling Micromega arithmetic solvers to work when using Mathematical Components number definitions.
 - [Metalib](https://github.com/plclub/metalib) - Library for programming language metatheory using locally nameless variable binding representations.
