@@ -158,7 +158,6 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Four Color Theorem](https://github.com/coq-community/fourcolor) - Formal proof of the Four Color Theorem, a landmark result of graph theory.
 - [Gaia](https://github.com/coq-community/gaia) - Implementation of books from Bourbaki's Elements of Mathematics, including set theory and number theory.
 - [GeoCoq](https://github.com/GeoCoq/GeoCoq) - Formalization of geometry based on Tarski's axiom system.
-- [Goedel](https://github.com/coq-community/goedel) - Constructive proof of the Gödel-Rosser incompleteness theorem.
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Formalized graph theory results.
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) - Development of homotopy-theoretic ideas.
 - [Infotheo](https://github.com/affeldt-aist/infotheo) - Formalization of information theory and linear error-correcting codes.
@@ -232,7 +231,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Computer Arithmetic and Formal Proofs](http://iste.co.uk/book.php?id=1238) - Book that describes how to formally specify and verify floating-point algorithms in Coq using the Flocq library.
 - [The Mathematical Components book](https://math-comp.github.io/mcb/) - Book oriented towards mathematically inclined users, focusing on the Mathematical Components library and the SSReflect proof language.
 - [Modeling and Proving in Computational Type Theory](https://github.com/uds-psl/MPCTT) - Book covering topics in computational logic using Coq, including foundations, canonical case studies, and practical programming.
-- [Hydras & Co.](https://github.com/coq-community/hydra-battles) - Continuously in-progress book on Kirby and Paris' hydra battles and other entertaining formalized mathematics in Coq, including library code and exercises.
+- [Hydras & Co.](https://github.com/coq-community/hydra-battles) - Continuously in-progress book and library on Kirby and Paris' hydra battles and other entertaining formalized mathematics in Coq, including a proof of the Gödel-Rosser first incompleteness theorem.
 
 ### Course Material
 
