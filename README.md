@@ -173,6 +173,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [CompCert](http://compcert.inria.fr) - High-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors.
 - [Ceramist](https://github.com/certichain/ceramist) - Verified hash-based approximate membership structures such as Bloom filters.
 - [Fiat-Crypto](https://github.com/mit-plv/fiat-crypto) - Cryptographic primitive code generation.
+- [Functional Algorithms Verified in SSReflect](https://github.com/clayrat/fav-ssr) - Purely functional verified implementations of algorithms for searching, sorting, and other fundamental problems.
 - [Incremental Cycles](https://gitlab.inria.fr/agueneau/incremental-cycles) - Verified OCaml implementation of an algorithm for incremental cycle detection in graphs.
 - [Jasmin](https://github.com/jasmin-lang/jasmin) - Formalized language and verified compiler for high-assurance and high-speed cryptography.
 - [JSCert](https://github.com/jscert/jscert) - Coq specification of ECMAScript 5 (JavaScript) with verified reference interpreter.
@@ -196,7 +197,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Official Coq wiki](https://github.com/coq/coq/wiki)
 - [Official Coq Twitter](https://twitter.com/CoqLang)
 - [Coq Zulip chat archive](https://coq.gitlab.io/zulip-archive/)
-- [Coq subreddit](https://www.reddit.com/r/coq/)
+- [Coq subreddit](https://www.reddit.com/r/Coq/)
 - [Coq tag on Stack Overflow](https://stackoverflow.com/questions/tagged/coq)
 - [Coq tag on Theoretical Computer Science Stack Exchange](https://cstheory.stackexchange.com/questions/tagged/coq)
 - [Coq tag on Proof Assistants Stack Exchange](https://proofassistants.stackexchange.com/questions/tagged/coq)
@@ -239,7 +240,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Floating-Point Numbers and Formal Proof](https://github.com/thery/FlocqLecture) - Introductory course on Coq real numbers and floating-point numbers from the Flocq library.
 - [Introduction to the Theory of Computation](https://gitlab.com/umb-svl/turing) - Formalization to support an undergraduate course on the theory of computation, including languages and Turing machines.
 - [Lectures on Software Foundations](https://github.com/clarksmr/sf-lectures) - Material on the Software Foundations series of textbooks, including a series of YouTube videos.
-- [Proofs and Reliable Programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2021/) - Introduction to developing and verifying programs with Coq.
+- [Proofs and Reliable Programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2022/) - Introduction to developing and verifying programs with Coq.
 
 ### Tutorials and Hints
 
