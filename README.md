@@ -242,6 +242,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Lectures on Software Foundations](https://github.com/clarksmr/sf-lectures) - Material on the Software Foundations series of textbooks, including a series of YouTube videos.
 - [Mechanized Semantics](https://github.com/xavierleroy/cdf-mech-sem) - Coq sources for a course on programming language semantics at Collège de France.
 - [Proofs and Reliable Programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2022/) - Introduction to developing and verifying programs with Coq.
+- [MathComp School](https://github.com/gares/math-comp-school-2022) - Coq sources for lessons and exercises that introduce the SSReflect proof language and the Mathematical Components library.
 
 ### Tutorials and Hints
 
