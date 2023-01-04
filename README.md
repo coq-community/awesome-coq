@@ -16,6 +16,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
   - [Libraries](#libraries)
   - [Package and Build Management](#package-and-build-management)
   - [Plugins](#plugins)
+  - [Puzzles and Games](#puzzles-and-games)
   - [Tools](#tools)
   - [Type Theory and Mathematics](#type-theory-and-mathematics)
   - [Verified Software](#verified-software)
@@ -114,6 +115,16 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [SMTCoq](https://github.com/smtcoq/smtcoq) - Tool that checks proof witnesses coming from external SAT and SMT solvers.
 - [Tactician](https://coq-tactician.github.io) - Interactive tool which learns from previously written tactic scripts across all the installed Coq packages and suggests the next tactic to be executed or tries to automate proof synthesis fully.
 - [Unicoq](https://github.com/unicoq/unicoq) - Plugin that replaces the existing unification algorithm with an enhanced one.
+
+### Puzzles and Games
+
+- [Coqoban](https://github.com/coq-community/coqoban - Coq implementation of Sokoban, the Japanese warehouse keepers' game.
+- [Hanoi](https://github.com/thery/hanoi) - The Tower of Hanoi puzzle in Coq, including generalizations and theorems about configurations.
+- [Mini-Rubik](https://github.com/thery/minirubik) - Coq formalization and solver of the 2x2x2 version of the Rubik's Cube puzzle.
+- [Name the Biggest Number](https://github.com/codyroux/name-the-biggest-number) - Repository for submitting proven contenders for the title of biggest number in Coq.
+- [Natural Number Game](https://github.com/uncomputable/natural-number-game) - Coq version of the natural number game originally developed for the Lean prover.
+- [Sudoku](https://github.com/coq-community/sudoku) - Formalization and solver of the Sudoku number-placement puzzle in Coq.
+- [T2048](https://github.com/thery/T2048) - Coq version of the 2048 sliding tile game.
 
 ### Tools
 
@@ -240,9 +251,9 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Floating-Point Numbers and Formal Proof](https://github.com/thery/FlocqLecture) - Introductory course on Coq real numbers and floating-point numbers from the Flocq library.
 - [Introduction to the Theory of Computation](https://gitlab.com/umb-svl/turing) - Formalization to support an undergraduate course on the theory of computation, including languages and Turing machines.
 - [Lectures on Software Foundations](https://github.com/clarksmr/sf-lectures) - Material on the Software Foundations series of textbooks, including a series of YouTube videos.
+- [MathComp School](https://github.com/gares/math-comp-school-2022) - Coq sources for lessons and exercises that introduce the SSReflect proof language and the Mathematical Components library.
 - [Mechanized Semantics](https://github.com/xavierleroy/cdf-mech-sem) - Coq sources for a course on programming language semantics at Collège de France.
 - [Proofs and Reliable Programming using Coq](https://team.inria.fr/stamp/proofs-and-reliable-programming-using-coq-2022/) - Introduction to developing and verifying programs with Coq.
-- [MathComp School](https://github.com/gares/math-comp-school-2022) - Coq sources for lessons and exercises that introduce the SSReflect proof language and the Mathematical Components library.
 
 ### Tutorials and Hints
 
