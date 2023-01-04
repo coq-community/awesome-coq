@@ -118,11 +118,11 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 
 ### Puzzles and Games
 
-- [Coqoban](https://github.com/coq-community/coqoban - Coq implementation of Sokoban, the Japanese warehouse keepers' game.
+- [Coqoban](https://github.com/coq-community/coqoban) - Coq implementation of Sokoban, the Japanese warehouse keepers' game.
 - [Hanoi](https://github.com/thery/hanoi) - The Tower of Hanoi puzzle in Coq, including generalizations and theorems about configurations.
 - [Mini-Rubik](https://github.com/thery/minirubik) - Coq formalization and solver of the 2x2x2 version of the Rubik's Cube puzzle.
 - [Name the Biggest Number](https://github.com/codyroux/name-the-biggest-number) - Repository for submitting proven contenders for the title of biggest number in Coq.
-- [Natural Number Game](https://github.com/uncomputable/natural-number-game) - Coq version of the natural number game originally developed for the Lean prover.
+- [Natural Number Game](https://github.com/uncomputable/natural-number-game) - Coq version of the natural number game developed for the Lean prover.
 - [Sudoku](https://github.com/coq-community/sudoku) - Formalization and solver of the Sudoku number-placement puzzle in Coq.
 - [T2048](https://github.com/thery/T2048) - Coq version of the 2048 sliding tile game.
 
