@@ -170,6 +170,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Gaia](https://github.com/coq-community/gaia) - Implementation of books from Bourbaki's Elements of Mathematics, including set theory and number theory.
 - [GeoCoq](https://github.com/GeoCoq/GeoCoq) - Formalization of geometry based on Tarski's axiom system.
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Formalized graph theory results.
+- [Hoare Type Theory](https://github.com/imdea-software/htt/) - A shallow embedding of sequential separation logic formulated as a type theory.
 - [Homotopy Type Theory](https://github.com/HoTT/HoTT) - Development of homotopy-theoretic ideas.
 - [Infotheo](https://github.com/affeldt-aist/infotheo) - Formalization of information theory and linear error-correcting codes.
 - [Mathematical Components](http://math-comp.github.io) - Formalization of mathematical theories, focusing in particular on group theory.
