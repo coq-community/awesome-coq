@@ -220,6 +220,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Mathematical Components wiki](https://github.com/math-comp/math-comp/wiki)
 - [100 famous theorems proved using Coq](https://github.com/coq-community/coq-100-theorems)
 - [Planet Coq link aggregator](https://coq.pl-a.net)
+- [Sherlocoq code search](https://sherlocoq.sirref.org)
 
 ### Blogs
 
