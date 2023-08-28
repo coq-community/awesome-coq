@@ -42,6 +42,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Hybrid](https://www.site.uottawa.ca/~afelty/HybridCoq/) - System for reasoning using higher-order abstract syntax representations of object logics.
 - [Iris](https://iris-project.org) - Higher-order concurrent separation logic framework.
 - [Q\*cert](https://github.com/querycert/qcert) - Platform for implementing and verifying query compilers.
+- [SSProve](https://github.com/SSProve/ssprove) - Framework for modular cryptographic proofs based on the Mathematical Components library.
 - [VCFloat](https://github.com/VeriNum/vcfloat) - Framework for verifying C programs with floating-point computations.
 - [Verdi](https://github.com/uwplse/verdi) - Framework for formally verifying distributed systems implementations.
 - [VST](https://vst.cs.princeton.edu) - Toolchain for verifying C code inside Coq in a higher-order concurrent, impredicative separation logic that is sound w.r.t. the Clight language of the CompCert compiler.
