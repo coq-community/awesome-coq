@@ -201,6 +201,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Tarjan and Kosaraju](https://github.com/math-comp/tarjan) - Verified implementations of algorithms for topological sorting and finding strongly connected components in finite graphs.
 - [Vélus](http://velus.inria.fr) - Verified compiler for a Lustre/Scade-like dataflow synchronous language.
 - [Verdi Raft](https://github.com/uwplse/verdi-raft) - Implementation of the Raft distributed consensus protocol, verified in Coq using the Verdi framework.
+- [WasmCert-Coq](https://github.com/WasmCert/WasmCert-Coq/) - WebAssembly (aka Wasm) 1.0 formalisation in Coq
 
 ## Resources
 
