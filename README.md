@@ -235,7 +235,7 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Guillaume Claret's Coq blog](http://coq-blog.clarus.me)
 - [Joachim Breitner's blog posts on Coq](http://www.joachim-breitner.de/blog/tag/Coq)
 - [Lysxia's blog](https://blog.poisson.chat)
-- [MIT PLV blog posts on Coq](https://plv.csail.mit.edu/blog/category/coq.html)
+- [MIT PLV blog posts on Coq](http://plv.csail.mit.edu/blog/category/coq.html)
 - [PLClub Blog](https://www.seas.upenn.edu/~plclub/blog/)
 - [Poleiro: a Coq blog by Arthur Azevedo de Amorim](http://poleiro.info)
 - [Ralf Jung's blog posts on Coq](https://www.ralfj.de/blog/categories/coq.html)
