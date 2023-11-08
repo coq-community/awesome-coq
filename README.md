@@ -232,7 +232,6 @@ Contributions welcome! Read the [contribution guidelines](https://github.com/coq
 - [Coq Exchange: ideas and experiment reports about Coq](https://project.inria.fr/coqexchange/news/)
 - [Gagallium](http://gallium.inria.fr/blog)
 - [Gregory Malecha's blog](https://gmalecha.github.io)
-- [Guillaume Claret's Coq blog](http://coq-blog.clarus.me)
 - [Joachim Breitner's blog posts on Coq](http://www.joachim-breitner.de/blog/tag/Coq)
 - [Lysxia's blog](https://blog.poisson.chat)
 - [MIT PLV blog posts on Coq](http://plv.csail.mit.edu/blog/category/coq.html)
