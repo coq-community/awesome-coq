@@ -19,4 +19,4 @@ jobs:
     - name: Install dependencies
       run: gem install awesome_bot
     - name: Run Awesome Bot
-      run: awesome_bot README.md --request-delay 0.2 --allow-dupe --allow-redirect --white-list reddit.com
+      run: awesome_bot README.md --request-delay 0.2 --allow-dupe --allow-redirect --white-list reddit.com,gouv.fr
