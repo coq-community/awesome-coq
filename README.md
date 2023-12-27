@@ -179,7 +179,7 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 - [PLClub Blog](https://www.seas.upenn.edu/~plclub/blog/)
 - [Poleiro: a Coq blog by Arthur Azevedo de Amorim](http://poleiro.info)
 - [Ralf Jung's blog posts on Coq](https://www.ralfj.de/blog/categories/coq.html)
-- [Thomas Letan's blog posts on Coq](https://soap.coffee/~lthms/#coq)
+- [Thomas Letan's blog posts on Coq](https://soap.coffee/~lthms/tags/coq.html)
 
 ### Books
 
